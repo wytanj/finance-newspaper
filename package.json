@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "refresh": "node scripts/refresh-markets.mjs",
+    "ship": "bash scripts/ship.sh"
   },
   "dependencies": {
     "react": "19.1.0",
