@@ -21,6 +21,12 @@ const TICKERS = [
   { key: "SGD", label: "USD/SGD", symbol: "SGD=X" },
 ];
 
+const ROBOTICS_TICKERS = [
+  { key: "ISRG", label: "Intuitive Surgical", symbol: "ISRG" },
+  { key: "BOTZ", label: "Global X Robotics", symbol: "BOTZ" },
+  { key: "NVDA", label: "NVIDIA", symbol: "NVDA" },
+];
+
 async function fetchOne(t) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(t.symbol)}?range=5d&interval=1d`;
   const res = await fetch(url, { headers: { "User-Agent": "JT-Finance-Paper/1.0" } });
@@ -46,17 +52,25 @@ async function fetchOne(t) {
   };
 }
 
-const markets = [];
-for (const t of TICKERS) {
-  try {
-    markets.push(await fetchOne(t));
-    console.log(t.key, markets.at(-1).price, markets.at(-1).changePct);
-  } catch (e) {
-    console.error(t.key, e.message);
+async function fetchAll(list) {
+  const markets = [];
+  for (const t of list) {
+    try {
+      markets.push(await fetchOne(t));
+      console.log(t.key, markets.at(-1).price, markets.at(-1).changePct);
+    } catch (e) {
+      console.error(t.key, e.message);
+    }
   }
+  return markets;
 }
 
-const byKey = Object.fromEntries(markets.map((m) => [m.key, m]));
+const markets = await fetchAll(TICKERS);
+const roboticsMarkets = await fetchAll(ROBOTICS_TICKERS);
+
+const byKey = Object.fromEntries(
+  [...markets, ...roboticsMarkets].map((m) => [m.key, m])
+);
 await writeFile(path.join(dataDir, "markets.json"), JSON.stringify(byKey, null, 2));
 
 const dateSgt = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Singapore" });
@@ -71,6 +85,9 @@ for (const file of ["daily.json", "weekly.json"]) {
   } else {
     j.marketsSnapshot = markets;
     j.weekEnd = dateSgt;
+  }
+  if (j.robotics) {
+    j.robotics.markets = roboticsMarkets;
   }
   j.generatedAt = generatedAt;
   j.status = "live-markets";

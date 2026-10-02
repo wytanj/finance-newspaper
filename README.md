@@ -7,8 +7,8 @@ Full-width newspaper UI (comfortable on a 34" monitor). Timezone **Asia/Singapor
 
 | Edition | URL |
 |--------|-----|
-| **Daily** | `/` — key numbers, charts, voice-distilled headlines, macro wire |
-| **Weekly** | `/weekly` — week-in-themes digest + market snapshot |
+| **Daily** | `/` — key numbers, charts, voice-distilled headlines, macro wire, **robotics** beat |
+| **Weekly** | `/weekly` — week-in-themes digest + market snapshot + **robotics** digest |
 
 Local: `npm run dev` → http://localhost:3000  
 Dogbot one-liner: open the site root for today’s paper; `/weekly` for the Sunday digest.
@@ -26,11 +26,22 @@ Edit **`data/voices.json`** to add/remove handles. Seeds:
 
 Expanded: `@LukeGromen`, `@RaoulGMI`, `@jessefelder` (+ `@MacroAlf` marked inactive).
 
+### Robotics cohort (tagged `robotics`)
+
+| Handle | Name |
+|--------|------|
+| `@BostonDynamics` | Boston Dynamics |
+| `@adcock_brett` | Brett Adcock (Figure CEO) |
+| `@DrJimFan` | Jim Fan (NVIDIA robotics) |
+| `@IEEESpectrum` | IEEE Spectrum |
+
+Expanded: `@Figure_robot`, `@Apptronik`, `@chelseabfinn`, `@physical_int`, `@clonerobotics`, `@UnitreeRobotics`, `@therobotreport`, `@1x_tech`, `@agilityrobotics`, `@SkildAI`.
+
 Headlines are distilled offline (box X tooling) into `data/daily.json` / `data/weekly.json` with **attribution + x.com links**. The site does not post or DM.
 
 ## Markets
 
-Numbers for **SPX, DXY, US10Y, BTC, gold, WTI, USD/SGD** via **Yahoo Finance** public chart API (delayed). Sparklines are last ~5 daily closes.
+Numbers for **SPX, DXY, US10Y, BTC, gold, WTI, USD/SGD** via **Yahoo Finance** public chart API (delayed). Robotics tape: **ISRG, BOTZ, NVDA**. Sparklines are last ~5 daily closes.
 
 Refresh on the box:
 

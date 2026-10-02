@@ -34,6 +34,15 @@ export type WireItem = {
   summary: string;
 };
 
+export type RoboticsBlock = {
+  masthead?: string;
+  tagline?: string;
+  markets?: MarketRow[];
+  headlines?: Headline[];
+  themes?: WeeklyTheme[];
+  wire: WireItem[];
+};
+
 export type DailyEdition = {
   edition: "daily";
   date: string;
@@ -47,6 +56,7 @@ export type DailyEdition = {
   markets: MarketRow[];
   headlines: Headline[];
   wire: WireItem[];
+  robotics: RoboticsBlock;
   sourcesNote: string;
 };
 
@@ -70,6 +80,7 @@ export type WeeklyEdition = {
   themes: WeeklyTheme[];
   marketsSnapshot: MarketRow[];
   wire: WireItem[];
+  robotics: RoboticsBlock;
   sourcesNote: string;
 };
 
@@ -81,4 +92,6 @@ export type Voice = {
   id: string;
   note?: string;
   active?: boolean;
+  /** Section tags: "macro" | "robotics" (and future beats). */
+  tags?: string[];
 };

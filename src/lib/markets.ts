@@ -25,6 +25,12 @@ const TICKERS: { key: string; label: string; symbol: string }[] = [
   { key: "SGD", label: "USD/SGD", symbol: "SGD=X" },
 ];
 
+export const ROBOTICS_TICKERS: { key: string; label: string; symbol: string }[] = [
+  { key: "ISRG", label: "Intuitive Surgical", symbol: "ISRG" },
+  { key: "BOTZ", label: "Global X Robotics", symbol: "BOTZ" },
+  { key: "NVDA", label: "NVIDIA", symbol: "NVDA" },
+];
+
 export async function fetchYahooMarkets(): Promise<FetchedMarket[]> {
   const out: FetchedMarket[] = [];
   for (const t of TICKERS) {

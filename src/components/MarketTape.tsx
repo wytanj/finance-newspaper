@@ -2,12 +2,23 @@ import type { MarketRow } from "@/lib/types";
 import { formatPrice, formatChange, changeClass } from "@/lib/format";
 import { SparkChart } from "./SparkChart";
 
-export function MarketTape({ markets }: { markets: MarketRow[] }) {
+export function MarketTape({
+  markets,
+  title = "Key numbers",
+  subtitle = "Yahoo Finance · delayed · 5-day spark",
+  ariaLabel = "Key numbers",
+}: {
+  markets: MarketRow[];
+  title?: string;
+  subtitle?: string;
+  ariaLabel?: string;
+}) {
+  if (!markets?.length) return null;
   return (
-    <section className="markets" aria-label="Key numbers">
+    <section className="markets" aria-label={ariaLabel}>
       <div className="section-head">
-        <h2>Key numbers</h2>
-        <p className="section-sub">Yahoo Finance · delayed · 5-day spark</p>
+        <h2>{title}</h2>
+        <p className="section-sub">{subtitle}</p>
       </div>
       <div className="market-grid">
         {markets.map((m) => {

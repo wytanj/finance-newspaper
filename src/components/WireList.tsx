@@ -1,11 +1,21 @@
 import type { WireItem } from "@/lib/types";
 
-export function WireList({ items }: { items: WireItem[] }) {
+export function WireList({
+  items,
+  title = "Macro wire",
+  subtitle = "X News summaries · click through to story",
+  ariaLabel = "Macro wire",
+}: {
+  items: WireItem[];
+  title?: string;
+  subtitle?: string;
+  ariaLabel?: string;
+}) {
   return (
-    <section className="wire" aria-label="Macro wire">
+    <section className="wire" aria-label={ariaLabel}>
       <div className="section-head">
-        <h2>Macro wire</h2>
-        <p className="section-sub">X News summaries · click through to story</p>
+        <h2>{title}</h2>
+        <p className="section-sub">{subtitle}</p>
       </div>
       <ul className="wire-list">
         {items.map((n) => (

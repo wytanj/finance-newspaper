@@ -2,8 +2,9 @@ export function formatPrice(key: string, price: number | null): string {
   if (price == null || Number.isNaN(price)) return "—";
   if (key === "US10Y") return `${price.toFixed(3)}%`;
   if (key === "BTC") return price.toLocaleString("en-US", { maximumFractionDigits: 0 });
-  if (key === "SPX" || key === "GOLD" || key === "OIL")
+  if (key === "SPX" || key === "GOLD" || key === "OIL" || key === "ISRG" || key === "NVDA" || key === "TSLA")
     return price.toLocaleString("en-US", { maximumFractionDigits: 2 });
+  if (key === "BOTZ") return price.toFixed(2);
   if (key === "DXY" || key === "SGD") return price.toFixed(4);
   return price.toLocaleString("en-US");
 }

@@ -2,6 +2,7 @@ import { Masthead } from "@/components/Masthead";
 import { MarketTape } from "@/components/MarketTape";
 import { HeadlineCard } from "@/components/HeadlineCard";
 import { WireList } from "@/components/WireList";
+import { RoboticsSection } from "@/components/RoboticsSection";
 import { PaperFooter } from "@/components/PaperFooter";
 import { loadDaily, loadVoices } from "@/lib/loadEdition";
 
@@ -37,6 +38,7 @@ export default async function DailyPage() {
         </section>
         <WireList items={daily.wire} />
       </div>
+      <RoboticsSection block={daily.robotics} mode="daily" />
       <PaperFooter note={daily.sourcesNote} voices={voices} />
     </main>
   );

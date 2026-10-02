@@ -1,6 +1,7 @@
 import { Masthead } from "@/components/Masthead";
 import { MarketTape } from "@/components/MarketTape";
 import { WireList } from "@/components/WireList";
+import { RoboticsSection } from "@/components/RoboticsSection";
 import { PaperFooter } from "@/components/PaperFooter";
 import { loadWeekly, loadVoices } from "@/lib/loadEdition";
 
@@ -48,6 +49,7 @@ export default async function WeeklyPage() {
         </section>
         <WireList items={weekly.wire} />
       </div>
+      <RoboticsSection block={weekly.robotics} mode="weekly" />
       <PaperFooter note={weekly.sourcesNote} voices={voices} />
     </main>
   );

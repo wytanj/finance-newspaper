@@ -1,14 +1,17 @@
 {
-  "updatedAt": "2026-10-02T02:20:00+08:00",
+  "updatedAt": "2026-10-02T21:20:00+08:00",
   "timezone": "Asia/Singapore",
-  "notes": "Edit this list to change whose X posts feed the daily/weekly distill. Handles are case-sensitive.",
+  "notes": "Edit this list to change whose X posts feed the daily/weekly distill. Handles are case-sensitive. Tag with macro and/or robotics so editions can pull by beat.",
   "seeds": [
     {
       "handle": "LynAldenContact",
       "name": "Lyn Alden",
       "role": "Macro / investor",
       "seed": true,
-      "id": "823766058909761536"
+      "id": "823766058909761536",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "PunterJeff",
@@ -16,14 +19,20 @@
       "role": "CRO @ Strive; Bitcoin / markets",
       "seed": true,
       "id": "500601961",
-      "note": "Former handle JeffWalton_ was suspended; active as @PunterJeff"
+      "note": "Former handle JeffWalton_ was suspended; active as @PunterJeff",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "ColeMacro",
       "name": "Matt Cole",
       "role": "CEO @ Strive; Bitcoin / macro",
       "seed": true,
-      "id": "1455383636614647812"
+      "id": "1455383636614647812",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "JoshMandell6",
@@ -31,7 +40,51 @@
       "role": "Rates / bonds (ex Salomon, Caxton)",
       "seed": true,
       "id": "1346948635347582978",
-      "note": "Display name on X is Josh Man"
+      "note": "Display name on X is Josh Man",
+      "tags": [
+        "macro"
+      ]
+    },
+    {
+      "handle": "BostonDynamics",
+      "name": "Boston Dynamics",
+      "role": "Humanoid / Atlas; industrial robotics",
+      "seed": true,
+      "id": "517473207",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "adcock_brett",
+      "name": "Brett Adcock",
+      "role": "CEO @ Figure; humanoid / physical AI",
+      "seed": true,
+      "id": "3222018178",
+      "note": "Not @BrettAdcock (dormant); active as @adcock_brett",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "DrJimFan",
+      "name": "Jim Fan",
+      "role": "NVIDIA Director of Robotics / GEAR; physical AGI",
+      "seed": true,
+      "id": "1007413134",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "IEEESpectrum",
+      "name": "IEEE Spectrum",
+      "role": "Trade press; robotics / engineering",
+      "seed": true,
+      "id": "15825547",
+      "tags": [
+        "robotics"
+      ]
     }
   ],
   "expanded": [
@@ -40,21 +93,30 @@
       "name": "Luke Gromen",
       "role": "FFTT; fiscal / energy / dollar macro",
       "seed": false,
-      "id": "2936015319"
+      "id": "2936015319",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "RaoulGMI",
       "name": "Raoul Pal",
       "role": "GMI / Real Vision; macro + exponential age",
       "seed": false,
-      "id": "2453385626"
+      "id": "2453385626",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "jessefelder",
       "name": "Jesse Felder",
       "role": "The Felder Report; valuation / bubbles",
       "seed": false,
-      "id": "1473431"
+      "id": "1473431",
+      "tags": [
+        "macro"
+      ]
     },
     {
       "handle": "MacroAlf",
@@ -62,7 +124,110 @@
       "role": "Institutional macro (low recent activity)",
       "seed": false,
       "id": "1344759366671589376",
-      "active": false
+      "active": false,
+      "tags": [
+        "macro"
+      ]
+    },
+    {
+      "handle": "Figure_robot",
+      "name": "Figure",
+      "role": "Humanoid company; Helix / F.03 fleet",
+      "seed": false,
+      "id": "1602443956888817665",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "Apptronik",
+      "name": "Apptronik",
+      "role": "Apollo humanoid; US supply chain / Texas",
+      "seed": false,
+      "id": "792359016592584704",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "chelseabfinn",
+      "name": "Chelsea Finn",
+      "role": "Stanford / co-founder Physical Intelligence",
+      "seed": false,
+      "id": "2577596593",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "physical_int",
+      "name": "Physical Intelligence",
+      "role": "Robot foundation models (π); factory + home",
+      "seed": false,
+      "id": "1767285662087348224",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "clonerobotics",
+      "name": "Clone",
+      "role": "Anatomical android hands / Torso",
+      "seed": false,
+      "id": "1450806886899531787",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "UnitreeRobotics",
+      "name": "Unitree",
+      "role": "Civilian humanoid / quadruped manufacturer",
+      "seed": false,
+      "id": "907134826137788416",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "therobotreport",
+      "name": "The Robot Report",
+      "role": "Trade press; robotics business & applications",
+      "seed": false,
+      "id": "115189158",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "1x_tech",
+      "name": "1X",
+      "role": "NEO home humanoid",
+      "seed": false,
+      "id": "755183838532370432",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "agilityrobotics",
+      "name": "Agility",
+      "role": "Digit industrial humanoid",
+      "seed": false,
+      "id": "3216567403",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "handle": "SkildAI",
+      "name": "Skild AI",
+      "role": "General-purpose robotic intelligence",
+      "seed": false,
+      "id": "1664370972869398529",
+      "tags": [
+        "robotics"
+      ]
     }
   ]
 }

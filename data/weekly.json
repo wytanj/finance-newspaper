@@ -4,15 +4,15 @@
   "weekEnd": "2026-10-02",
   "timezone": "Asia/Singapore",
   "publishedAt": "2026-10-02T07:00:00+08:00",
-  "generatedAt": "2026-10-02T10:25:00+08:00",
-  "status": "seeded",
-  "masthead": "JT Finance Paper \u2014 Weekly",
-  "tagline": "Week in macro \u00b7 Asia/Singapore",
-  "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise, and Gromen\u2019s electricity/reshoring inflation warning.",
+  "generatedAt": "2026-10-02T21:20:00+08:00",
+  "status": "seeded+robotics",
+  "masthead": "JT Finance Paper — Weekly",
+  "tagline": "Week in macro + robotics · Asia/Singapore",
+  "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise — and a robotics digest: Atlas hands for the factory, Figure’s molten decommission, and the reliability gap Physical Intelligence keeps naming.",
   "themes": [
     {
       "title": "The bond market is the story",
-      "body": "10Y yields printed multi-decade highs then eased; mortgage rates jumped to 7.28%. Alden: curve flat not steep \u2014 the argument is about the level of rates. Gromen: more UST supply as coupons reprice toward 5%+, deficits heading $2T\u2192$3T. Mandell: \u201cbreak it, buy it\u201d between Treasury and Fed.",
+      "body": "10Y yields printed multi-decade highs then eased; mortgage rates jumped to 7.28%. Alden: curve flat not steep — the argument is about the level of rates. Gromen: more UST supply as coupons reprice toward 5%+, deficits heading $2T→$3T. Mandell: “break it, buy it” between Treasury and Fed.",
       "handles": [
         "LynAldenContact",
         "LukeGromen",
@@ -21,7 +21,7 @@
     },
     {
       "title": "Fiscal dominance as base case",
-      "body": "Alden\u2019s \u201cgradual print\u201d framing: 7% stimulatory deficits pre-run recessions. Quality-over-quantity FinTwit posture \u2014 signal is what she objects to amid AI noise.",
+      "body": "Alden’s “gradual print” framing: 7% stimulatory deficits pre-run recessions. Quality-over-quantity FinTwit posture — signal is what she objects to amid AI noise.",
       "handles": [
         "LynAldenContact"
       ]
@@ -37,7 +37,7 @@
     },
     {
       "title": "Energy, manufacturing, AI power",
-      "body": "Gromen ties dollar hegemony to manufacturing and flags Ferguson\u2019s Law (interest > military). Pal flips the AI-power panic: China solar scale and Wright\u2019s Law as the supply answer; Token2049 Singapore next week.",
+      "body": "Gromen ties dollar hegemony to manufacturing and flags Ferguson’s Law (interest > military). Pal flips the AI-power panic: China solar scale and Wright’s Law as the supply answer; Token2049 Singapore next week.",
       "handles": [
         "LukeGromen",
         "RaoulGMI"
@@ -45,7 +45,7 @@
     },
     {
       "title": "Valuation caution (background)",
-      "body": "Felder\u2019s recent posts (less frequent lately) still hammer bubble/fragility themes \u2014 useful counterweight when BTC and AI narratives run hot.",
+      "body": "Felder’s recent posts (less frequent lately) still hammer bubble/fragility themes — useful counterweight when BTC and AI narratives run hot.",
       "handles": [
         "jessefelder"
       ]
@@ -195,11 +195,134 @@
     },
     {
       "id": "n4",
-      "title": "Stablecoin issuers fill gap from China\u2019s Treasury sales",
+      "title": "Stablecoin issuers fill gap from China’s Treasury sales",
       "url": "https://x.com/i/trending/2105779380559438034",
       "source": "X News",
-      "summary": "SF Fed note: Tether/Circle Treasury holdings offset ~40% of China\u2019s reductions."
+      "summary": "SF Fed note: Tether/Circle Treasury holdings offset ~40% of China’s reductions."
     }
   ],
-  "sourcesNote": "Weekly is a human-style distill of the daily voice set. Markets: Yahoo Finance. Not investment advice."
+  "sourcesNote": "Weekly is a human-style distill of the daily voice set (macro + robotics). Markets: Yahoo Finance. Not investment advice.",
+  "robotics": {
+    "masthead": "Robotics",
+    "tagline": "Week in physical AI · Asia/Singapore",
+    "markets": [
+      {
+        "key": "ISRG",
+        "label": "Intuitive Surgical",
+        "symbol": "ISRG",
+        "price": 401.24,
+        "changePct": 0.431,
+        "spark": [
+          405.18,
+          414.79,
+          412.18,
+          406.63,
+          401.24
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      },
+      {
+        "key": "BOTZ",
+        "label": "Global X Robotics",
+        "symbol": "BOTZ",
+        "price": 35.43,
+        "changePct": 0.596,
+        "spark": [
+          35.4,
+          35.13,
+          35.24,
+          35.23,
+          35.43
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      },
+      {
+        "key": "NVDA",
+        "label": "NVIDIA",
+        "symbol": "NVDA",
+        "price": 230.86,
+        "changePct": 2.796,
+        "spark": [
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      }
+    ],
+    "themes": [
+      {
+        "title": "Hands are the product",
+        "body": "BD’s four-finger, 13-DOF Atlas hand is explicitly a manufacturing + sim2real design (direct drive, replaceable actuators, no pinkie). Clone’s anatomical Hand of Torso 3 is the last legacy design before a controllability-first Torso 4. Two philosophies, same bottleneck: tool use unlocks the factory.",
+        "handles": [
+          "BostonDynamics",
+          "IEEESpectrum",
+          "clonerobotics"
+        ]
+      },
+      {
+        "title": "Ops theater → F.03",
+        "body": "Figure’s F.02 decommission (autonomous furnace jumps in Finland, Arnold cameo, metal artifacts) is both brand and logistics: retire proprietary hardware cleanly while the F.03 / Helix fleet takes the stage.",
+        "handles": [
+          "adcock_brett",
+          "Figure_robot"
+        ]
+      },
+      {
+        "title": "Factory data flywheels",
+        "body": "Hyundai’s RMAC puts Atlas on a real Georgia line with a path to tens of thousands of units. UBTECH’s Liuzhou plant is already cycling humanoids off the line every ~10 minutes. Deployment volume is becoming the training set.",
+        "handles": [
+          "BostonDynamics",
+          "Apptronik"
+        ]
+      },
+      {
+        "title": "Reliability over demos",
+        "body": "Finn: the gap between building one box and productively building boxes for hours. Jim Fan: touch still under-explored. Anthropic’s exposure math is huge; cost and unstructured environments still dominate the timeline.",
+        "handles": [
+          "chelseabfinn",
+          "DrJimFan",
+          "physical_int"
+        ]
+      }
+    ],
+    "wire": [
+      {
+        "id": "rw1",
+        "title": "Boston Dynamics and Clone unveil new humanoid hands hours apart",
+        "url": "https://x.com/i/trending/2105689448780644512",
+        "source": "X News",
+        "summary": "Atlas industrial four-finger hand vs Clone anatomical hydraulics — dexterity as the week’s center of gravity."
+      },
+      {
+        "id": "rw2",
+        "title": "Atlas trains on Hyundai Georgia factory floor; 25k-unit roadmap",
+        "url": "https://x.com/i/trending/2105275991417663899",
+        "source": "X News",
+        "summary": "RMAC at HMGMA; parts handling first, assembly later. Data flywheel for plant AI."
+      },
+      {
+        "id": "rw3",
+        "title": "Figure decommissions F.02 fleet in Finnish arc furnace",
+        "url": "https://x.com/i/trending/2105327671198490956",
+        "source": "X News",
+        "summary": "Autonomous jumps into molten steel; F.03 transition story with recycled artifacts."
+      },
+      {
+        "id": "rw4",
+        "title": "Anthropic: robots + LLMs expose ~80% of US working hours",
+        "url": "https://x.com/i/trending/2105390941410365844",
+        "source": "X News",
+        "summary": "Exposure ≠ economics — price still the binding constraint for most physical tasks."
+      }
+    ]
+  }
 }
