@@ -34,6 +34,15 @@ export type WireItem = {
   summary: string;
 };
 
+export type ActionableKind = "watch" | "move" | "decision";
+
+export type Actionable = {
+  kind: ActionableKind;
+  title: string;
+  detail: string;
+  related?: string;
+};
+
 export type RoboticsBlock = {
   masthead?: string;
   tagline?: string;
@@ -57,6 +66,7 @@ export type DailyEdition = {
   headlines: Headline[];
   wire: WireItem[];
   robotics: RoboticsBlock;
+  actionables?: Actionable[];
   sourcesNote: string;
 };
 
@@ -81,6 +91,7 @@ export type WeeklyEdition = {
   marketsSnapshot: MarketRow[];
   wire: WireItem[];
   robotics: RoboticsBlock;
+  actionables?: Actionable[];
   sourcesNote: string;
 };
 
@@ -94,4 +105,30 @@ export type Voice = {
   active?: boolean;
   /** Section tags: "macro" | "robotics" (and future beats). */
   tags?: string[];
+};
+
+export type ArchiveDailyEntry = {
+  date: string;
+  masthead: string;
+  tagline: string;
+  lead: string;
+  status: string;
+  path: string;
+};
+
+export type ArchiveWeeklyEntry = {
+  id: string;
+  weekOf: string;
+  weekEnd: string;
+  masthead: string;
+  tagline: string;
+  lead: string;
+  status: string;
+  path: string;
+};
+
+export type ArchiveIndex = {
+  updatedAt: string;
+  daily: ArchiveDailyEntry[];
+  weekly: ArchiveWeeklyEntry[];
 };

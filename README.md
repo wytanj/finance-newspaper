@@ -7,8 +7,9 @@ Full-width newspaper UI (comfortable on a 34" monitor). Timezone **Asia/Singapor
 
 | Edition | URL |
 |--------|-----|
-| **Daily** | `/` — key numbers, charts, voice-distilled headlines, macro wire, **robotics** beat |
-| **Weekly** | `/weekly` — week-in-themes digest + market snapshot + **robotics** digest |
+| **Daily** | `/` — actionables, key numbers, voice headlines, macro wire, **robotics** beat |
+| **Weekly** | `/weekly` — actionables, week-in-themes, market snapshot, **robotics** digest |
+| **Past editions** | `/archive` — browse prior daily + weekly issues |
 
 Local: `npm run dev` → http://localhost:3000  
 Dogbot one-liner: open the site root for today’s paper; `/weekly` for the Sunday digest.
@@ -38,6 +39,28 @@ Expanded: `@LukeGromen`, `@RaoulGMI`, `@jessefelder` (+ `@MacroAlf` marked inact
 Expanded: `@Figure_robot`, `@Apptronik`, `@chelseabfinn`, `@physical_int`, `@clonerobotics`, `@UnitreeRobotics`, `@therobotreport`, `@1x_tech`, `@agilityrobotics`, `@SkildAI`.
 
 Headlines are distilled offline (box X tooling) into `data/daily.json` / `data/weekly.json` with **attribution + x.com links**. The site does not post or DM.
+
+
+## Actionables
+
+Each edition carries an optional `actionables` array:
+
+```json
+{ "kind": "watch" | "move" | "decision", "title": "...", "detail": "...", "related": "optional" }
+```
+
+Rendered as a full-width **Actionables** band (watchlist / next moves / decisions) on daily, weekly, and archived issues. Seed or edit in `data/daily.json` / `data/weekly.json` (same box-update pattern as headlines). `scripts/refresh-markets.mjs` preserves the array when refreshing quotes.
+
+## Past editions (archive)
+
+Git-backed static archive (no paid DB):
+
+- `data/archive/daily/YYYY-MM-DD.json`
+- `data/archive/weekly/YYYY-Www.json` (ISO week)
+- `data/archive/index.json` — listing for `/archive`
+
+Routes: `/archive`, `/archive/daily/[date]`, `/archive/weekly/[id]`.  
+On date/week roll, `scripts/refresh-markets.mjs` copies the previous current edition into the archive if missing.
 
 ## Markets
 

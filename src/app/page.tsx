@@ -3,6 +3,7 @@ import { MarketTape } from "@/components/MarketTape";
 import { HeadlineCard } from "@/components/HeadlineCard";
 import { WireList } from "@/components/WireList";
 import { RoboticsSection } from "@/components/RoboticsSection";
+import { ActionablesSection } from "@/components/ActionablesSection";
 import { PaperFooter } from "@/components/PaperFooter";
 import { loadDaily, loadVoices } from "@/lib/loadEdition";
 
@@ -23,6 +24,7 @@ export default async function DailyPage() {
         active="daily"
       />
       <p className="lead">{daily.lead}</p>
+      <ActionablesSection items={daily.actionables} />
       <MarketTape markets={daily.markets} />
       <div className="layout-2">
         <section aria-label="Headlines">

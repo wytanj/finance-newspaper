@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Voice } from "@/lib/types";
 
 export function PaperFooter({
@@ -37,9 +38,17 @@ export function PaperFooter({
           ))}
         </p>
       ) : null}
+      <p className="footer-nav">
+        <Link href="/">Daily</Link>
+        {" · "}
+        <Link href="/weekly">Weekly</Link>
+        {" · "}
+        <Link href="/archive">Past editions</Link>
+      </p>
       <p className="edit-hint">
         Edit <code>data/voices.json</code> to change the voice list (tag with{" "}
-        <code>macro</code> / <code>robotics</code>). Cron refreshes markets daily ~07:00 SGT.
+        <code>macro</code> / <code>robotics</code>). Actionables live on each edition JSON. Cron
+        refreshes markets daily ~07:00 SGT.
       </p>
     </footer>
   );

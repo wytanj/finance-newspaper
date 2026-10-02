@@ -1,43 +1,60 @@
+import { notFound } from "next/navigation";
 import { Masthead } from "@/components/Masthead";
 import { MarketTape } from "@/components/MarketTape";
 import { WireList } from "@/components/WireList";
 import { RoboticsSection } from "@/components/RoboticsSection";
 import { ActionablesSection } from "@/components/ActionablesSection";
 import { PaperFooter } from "@/components/PaperFooter";
-import { loadWeekly, loadVoices } from "@/lib/loadEdition";
+import { loadArchivedWeekly, loadArchiveIndex, loadVoices } from "@/lib/loadEdition";
 
 export const dynamic = "force-dynamic";
 
-export default async function WeeklyPage() {
-  const [weekly, voicesFile] = await Promise.all([loadWeekly(), loadVoices()]);
+export async function generateStaticParams() {
+  try {
+    const index = await loadArchiveIndex();
+    return index.weekly.map((e) => ({ id: e.id }));
+  } catch {
+    return [];
+  }
+}
+
+export default async function ArchivedWeeklyPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const [edition, voicesFile] = await Promise.all([loadArchivedWeekly(id), loadVoices()]);
+  if (!edition) notFound();
   const voices = [...voicesFile.seeds, ...voicesFile.expanded.filter((v) => v.active !== false)];
 
   return (
     <main>
       <Masthead
-        title={weekly.masthead}
-        tagline={weekly.tagline}
-        dateLabel={weekly.weekEnd}
-        generatedAt={weekly.generatedAt}
-        status={weekly.status}
-        active="weekly"
+        title={edition.masthead}
+        tagline={edition.tagline}
+        dateLabel={edition.weekEnd}
+        generatedAt={edition.generatedAt}
+        status={edition.status}
+        active="archive"
+        archiveBadge={`Past weekly · ${id}`}
       />
-      <p className="lead">{weekly.lead}</p>
+      <p className="lead">{edition.lead}</p>
       <ActionablesSection
-        items={weekly.actionables}
+        items={edition.actionables}
         subtitle="Week’s decisions · watchlist · next moves · not advice"
       />
-      <MarketTape markets={weekly.marketsSnapshot} />
+      <MarketTape markets={edition.marketsSnapshot} />
       <div className="layout-2">
         <section aria-label="Weekly themes">
           <div className="section-head">
             <h2>Week in themes</h2>
             <p className="section-sub">
-              {weekly.weekOf} → {weekly.weekEnd} SGT
+              {edition.weekOf} → {edition.weekEnd} SGT
             </p>
           </div>
           <div className="themes">
-            {weekly.themes.map((t) => (
+            {edition.themes.map((t) => (
               <article key={t.title} className="theme-card">
                 <h3>{t.title}</h3>
                 <p>{t.body}</p>
@@ -52,10 +69,10 @@ export default async function WeeklyPage() {
             ))}
           </div>
         </section>
-        <WireList items={weekly.wire} />
+        <WireList items={edition.wire} />
       </div>
-      <RoboticsSection block={weekly.robotics} mode="weekly" />
-      <PaperFooter note={weekly.sourcesNote} voices={voices} />
+      <RoboticsSection block={edition.robotics} mode="weekly" />
+      <PaperFooter note={edition.sourcesNote} voices={voices} />
     </main>
   );
 }

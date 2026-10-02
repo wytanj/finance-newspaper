@@ -1,13 +1,13 @@
 {
   "edition": "daily",
-  "date": "2026-10-02",
+  "date": "2026-09-29",
   "timezone": "Asia/Singapore",
-  "publishedAt": "2026-10-02T07:00:00+08:00",
-  "generatedAt": "2026-10-02T21:20:00+08:00",
-  "status": "seeded+robotics+actionables",
+  "publishedAt": "2026-09-29T07:00:00+08:00",
+  "generatedAt": "2026-09-29T21:00:00+08:00",
+  "status": "archived-seed",
   "masthead": "JT Finance Paper",
   "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
-  "lead": "Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI — plus a first-class robotics beat: Atlas hands built for mass production, Figure’s F.02 decommission, and the reliability gap in physical AI.",
+  "lead": "Archive seed (Mon) — Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI — plus a first-class robotics beat: Atlas hands built for mass production, Figure’s F.02 decommission, and the reliability gap in physical AI.",
   "markets": [
     {
       "key": "SPX",
@@ -542,18 +542,6 @@
       "title": "Fiscal dominance as base case — keep or fade?",
       "detail": "Alden’s gradual-print framing (stimulatory deficits reshape recessions) is the regime call. Decide whether portfolio risk is still ‘inflation/fiscal’ rather than classic soft-landing rates.",
       "related": "fiscal"
-    },
-    {
-      "kind": "watch",
-      "title": "Robotics tape: ISRG · BOTZ · NVDA",
-      "detail": "Hands race (Atlas manufacturing hand vs Clone anatomical) and Figure F.02→F.03 ops theater. Watch whether robotics beta holds when macro yields bite.",
-      "related": "robotics"
-    },
-    {
-      "kind": "move",
-      "title": "Reliability gap in physical AI — filter demos",
-      "detail": "Finn/Jim Fan: touch, latency, and hours of real work beat one-box demos. Prefer fleet/factory datapoints (Hyundai RMAC, UBTECH Liuzhou) over viral clips.",
-      "related": "robotics"
     }
   ]
 }

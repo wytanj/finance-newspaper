@@ -1,14 +1,14 @@
 {
   "edition": "weekly",
-  "weekOf": "2026-09-29",
-  "weekEnd": "2026-10-02",
+  "weekOf": "2026-09-22",
+  "weekEnd": "2026-09-28",
   "timezone": "Asia/Singapore",
-  "publishedAt": "2026-10-02T07:00:00+08:00",
-  "generatedAt": "2026-10-02T21:20:00+08:00",
-  "status": "seeded+robotics+actionables",
+  "publishedAt": "2026-09-28T20:00:00+08:00",
+  "generatedAt": "2026-09-28T20:00:00+08:00",
+  "status": "archived-seed",
   "masthead": "JT Finance Paper — Weekly",
   "tagline": "Week in macro + robotics · Asia/Singapore",
-  "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise — and a robotics digest: Atlas hands for the factory, Figure’s molten decommission, and the reliability gap Physical Intelligence keeps naming.",
+  "lead": "Archive seed (W39) — A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise — and a robotics digest: Atlas hands for the factory, Figure’s molten decommission, and the reliability gap Physical Intelligence keeps naming.",
   "themes": [
     {
       "title": "The bond market is the story",
@@ -348,12 +348,6 @@
       "kind": "decision",
       "title": "Factory robotics: real deployment or still theater?",
       "detail": "Hyundai RMAC (Atlas on Georgia line) + UBTECH Liuzhou cycles lean ‘real’. Figure’s F.02 melt is brand/ops. Decide which names go on the weekly watch vs remain narrative.",
-      "related": "robotics"
-    },
-    {
-      "kind": "watch",
-      "title": "Hands as the product (Atlas 13-DOF vs Clone hydraulic)",
-      "detail": "Two philosophies landed the same week. Watch which design language OEMs adopt for mass production — manufacturing ruggedness vs anatomical fidelity.",
       "related": "robotics"
     }
   ]

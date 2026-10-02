@@ -7,16 +7,32 @@ type Props = {
   dateLabel: string;
   generatedAt: string;
   status: string;
-  active: "daily" | "weekly";
+  active: "daily" | "weekly" | "archive";
+  /** Optional badge when viewing a past edition */
+  archiveBadge?: string;
 };
 
-export function Masthead({ title, tagline, dateLabel, generatedAt, status, active }: Props) {
+export function Masthead({
+  title,
+  tagline,
+  dateLabel,
+  generatedAt,
+  status,
+  active,
+  archiveBadge,
+}: Props) {
   return (
     <header className="masthead">
       <div className="masthead-top">
         <p className="eyebrow">{tagline}</p>
         <p className="meta">
           Generated {formatSgt(generatedAt)} · <span className="status">{status}</span>
+          {archiveBadge ? (
+            <>
+              {" "}
+              · <span className="archive-badge">{archiveBadge}</span>
+            </>
+          ) : null}
         </p>
       </div>
       <div className="masthead-main">
@@ -31,6 +47,9 @@ export function Masthead({ title, tagline, dateLabel, generatedAt, status, activ
         </Link>
         <Link href="/weekly" className={active === "weekly" ? "tab active" : "tab"}>
           Weekly
+        </Link>
+        <Link href="/archive" className={active === "archive" ? "tab active" : "tab"}>
+          Past editions
         </Link>
       </nav>
     </header>
