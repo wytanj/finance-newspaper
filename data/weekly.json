@@ -1,0 +1,205 @@
+{
+  "edition": "weekly",
+  "weekOf": "2026-09-29",
+  "weekEnd": "2026-10-02",
+  "timezone": "Asia/Singapore",
+  "publishedAt": "2026-10-02T07:00:00+08:00",
+  "generatedAt": "2026-10-02T10:25:00+08:00",
+  "status": "seeded",
+  "masthead": "JT Finance Paper \u2014 Weekly",
+  "tagline": "Week in macro \u00b7 Asia/Singapore",
+  "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise, and Gromen\u2019s electricity/reshoring inflation warning.",
+  "themes": [
+    {
+      "title": "The bond market is the story",
+      "body": "10Y yields printed multi-decade highs then eased; mortgage rates jumped to 7.28%. Alden: curve flat not steep \u2014 the argument is about the level of rates. Gromen: more UST supply as coupons reprice toward 5%+, deficits heading $2T\u2192$3T. Mandell: \u201cbreak it, buy it\u201d between Treasury and Fed.",
+      "handles": [
+        "LynAldenContact",
+        "LukeGromen",
+        "JoshMandell6"
+      ]
+    },
+    {
+      "title": "Fiscal dominance as base case",
+      "body": "Alden\u2019s \u201cgradual print\u201d framing: 7% stimulatory deficits pre-run recessions. Quality-over-quantity FinTwit posture \u2014 signal is what she objects to amid AI noise.",
+      "handles": [
+        "LynAldenContact"
+      ]
+    },
+    {
+      "title": "Bitcoin capital markets / Strive cluster",
+      "body": "Walton: Buy Bitcoin; SATA at par with heavy volume. Cole: MSCI ESG hostility toward BTC cos is a $21T-benchmark problem. Mandell: BTC rally with no retracement; ASST/STRC microstructure notes.",
+      "handles": [
+        "PunterJeff",
+        "ColeMacro",
+        "JoshMandell6"
+      ]
+    },
+    {
+      "title": "Energy, manufacturing, AI power",
+      "body": "Gromen ties dollar hegemony to manufacturing and flags Ferguson\u2019s Law (interest > military). Pal flips the AI-power panic: China solar scale and Wright\u2019s Law as the supply answer; Token2049 Singapore next week.",
+      "handles": [
+        "LukeGromen",
+        "RaoulGMI"
+      ]
+    },
+    {
+      "title": "Valuation caution (background)",
+      "body": "Felder\u2019s recent posts (less frequent lately) still hammer bubble/fragility themes \u2014 useful counterweight when BTC and AI narratives run hot.",
+      "handles": [
+        "jessefelder"
+      ]
+    }
+  ],
+  "marketsSnapshot": [
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "symbol": "^GSPC",
+      "price": 7666.45,
+      "changePct": -0.489,
+      "spark": [
+        7743.4102,
+        7683.6899,
+        7670.8398,
+        7651.54,
+        7666.4502
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-01T20:35:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "DXY",
+      "label": "US Dollar (DXY)",
+      "symbol": "DX-Y.NYB",
+      "price": 102.053,
+      "changePct": 0.843,
+      "spark": [
+        101.2,
+        101.37,
+        101.45,
+        102.1,
+        102.053
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:39Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "US10Y",
+      "label": "US 10Y Yield",
+      "symbol": "^TNX",
+      "price": 5.237,
+      "changePct": 1.022,
+      "spark": [
+        5.184,
+        5.24,
+        5.255,
+        5.293,
+        5.237
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-01T18:59:54Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "BTC",
+      "label": "Bitcoin",
+      "symbol": "BTC-USD",
+      "price": 84884.3,
+      "changePct": 1.655,
+      "spark": [
+        83502.6094,
+        83622.4297,
+        83553.8516,
+        84884.2969
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:21:38Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "GOLD",
+      "label": "Gold",
+      "symbol": "GC=F",
+      "price": 4184.9,
+      "changePct": 0.396,
+      "spark": [
+        4168.3999,
+        4179.7002,
+        4186.7002,
+        4202.2998,
+        4184.8999
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "OIL",
+      "label": "WTI Crude",
+      "symbol": "CL=F",
+      "price": 92.74,
+      "changePct": 0.151,
+      "spark": [
+        92.6,
+        89.38,
+        90.42,
+        92.87,
+        92.74
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:38Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "SGD",
+      "label": "USD/SGD",
+      "symbol": "SGD=X",
+      "price": 1.2806,
+      "changePct": 0.164,
+      "spark": [
+        1.2785,
+        1.2773,
+        1.2777,
+        1.2779,
+        1.2806
+      ],
+      "currency": "SGD",
+      "asOf": "2026-10-02T02:21:40Z",
+      "source": "Yahoo Finance"
+    }
+  ],
+  "wire": [
+    {
+      "id": "n1",
+      "title": "Treasury yields pull back from multi-decade highs; bond reversal talk",
+      "url": "https://x.com/i/trending/2105762859372220600",
+      "source": "X News",
+      "summary": "10Y eased after hitting highs not seen since 2002; TLT watched as oversold after a brutal quarter."
+    },
+    {
+      "id": "n2",
+      "title": "30-year mortgage hits 7.28%, highest since 2023",
+      "url": "https://x.com/i/trending/2105797540805501075",
+      "source": "X News",
+      "summary": "Biggest weekly jump in four years as long-end Treasury selloff feeds into housing costs."
+    },
+    {
+      "id": "n3",
+      "title": "US stocks rebound modestly as yields ease from 2002 highs",
+      "url": "https://x.com/i/trending/2105807746109214981",
+      "source": "X News",
+      "summary": "S&P +0.2% on choppy Oct open; Micron AI memory and energy helped the bounce."
+    },
+    {
+      "id": "n4",
+      "title": "Stablecoin issuers fill gap from China\u2019s Treasury sales",
+      "url": "https://x.com/i/trending/2105779380559438034",
+      "source": "X News",
+      "summary": "SF Fed note: Tether/Circle Treasury holdings offset ~40% of China\u2019s reductions."
+    }
+  ],
+  "sourcesNote": "Weekly is a human-style distill of the daily voice set. Markets: Yahoo Finance. Not investment advice."
+}

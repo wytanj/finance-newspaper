@@ -1,0 +1,113 @@
+{
+  "SPX": {
+    "symbol": "^GSPC",
+    "price": 7666.45,
+    "prevClose": 7704.13,
+    "changePct": -0.489,
+    "currency": "USD",
+    "spark": [
+      7743.4102,
+      7683.6899,
+      7670.8398,
+      7651.54,
+      7666.4502
+    ],
+    "asOf": "2026-10-01T20:35:37Z",
+    "source": "Yahoo Finance"
+  },
+  "DXY": {
+    "symbol": "DX-Y.NYB",
+    "price": 102.053,
+    "prevClose": 101.2,
+    "changePct": 0.843,
+    "currency": "USD",
+    "spark": [
+      101.2,
+      101.37,
+      101.45,
+      102.1,
+      102.053
+    ],
+    "asOf": "2026-10-02T02:11:39Z",
+    "source": "Yahoo Finance"
+  },
+  "BTC": {
+    "symbol": "BTC-USD",
+    "price": 84884.3,
+    "prevClose": 83502.61,
+    "changePct": 1.655,
+    "currency": "USD",
+    "spark": [
+      83502.6094,
+      83622.4297,
+      83553.8516,
+      84884.2969
+    ],
+    "asOf": "2026-10-02T02:21:38Z",
+    "source": "Yahoo Finance"
+  },
+  "GOLD": {
+    "symbol": "GC=F",
+    "price": 4184.9,
+    "prevClose": 4168.4,
+    "changePct": 0.396,
+    "currency": "USD",
+    "spark": [
+      4168.3999,
+      4179.7002,
+      4186.7002,
+      4202.2998,
+      4184.8999
+    ],
+    "asOf": "2026-10-02T02:11:37Z",
+    "source": "Yahoo Finance"
+  },
+  "OIL": {
+    "symbol": "CL=F",
+    "price": 92.74,
+    "prevClose": 92.6,
+    "changePct": 0.151,
+    "currency": "USD",
+    "spark": [
+      92.6,
+      89.38,
+      90.42,
+      92.87,
+      92.74
+    ],
+    "asOf": "2026-10-02T02:11:38Z",
+    "source": "Yahoo Finance"
+  },
+  "US10Y": {
+    "symbol": "^TNX",
+    "price": 5.237,
+    "prevClose": 5.184,
+    "changePct": 1.022,
+    "currency": "USD",
+    "spark": [
+      5.184,
+      5.24,
+      5.255,
+      5.293,
+      5.237
+    ],
+    "asOf": "2026-10-01T18:59:54Z",
+    "source": "Yahoo Finance"
+  },
+  "SGD": {
+    "symbol": "SGD=X",
+    "price": 1.2806,
+    "prevClose": 1.2785,
+    "changePct": 0.164,
+    "currency": "SGD",
+    "spark": [
+      1.2785,
+      1.2773,
+      1.2777,
+      1.2779,
+      1.2806
+    ],
+    "asOf": "2026-10-02T02:21:40Z",
+    "source": "Yahoo Finance"
+  }
+}

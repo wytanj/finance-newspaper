@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-10-02T02:20:00+08:00",
+  "timezone": "Asia/Singapore",
+  "notes": "Edit this list to change whose X posts feed the daily/weekly distill. Handles are case-sensitive.",
+  "seeds": [
+    {
+      "handle": "LynAldenContact",
+      "name": "Lyn Alden",
+      "role": "Macro / investor",
+      "seed": true,
+      "id": "823766058909761536"
+    },
+    {
+      "handle": "PunterJeff",
+      "name": "Jeff Walton",
+      "role": "CRO @ Strive; Bitcoin / markets",
+      "seed": true,
+      "id": "500601961",
+      "note": "Former handle JeffWalton_ was suspended; active as @PunterJeff"
+    },
+    {
+      "handle": "ColeMacro",
+      "name": "Matt Cole",
+      "role": "CEO @ Strive; Bitcoin / macro",
+      "seed": true,
+      "id": "1455383636614647812"
+    },
+    {
+      "handle": "JoshMandell6",
+      "name": "Josh Mandell",
+      "role": "Rates / bonds (ex Salomon, Caxton)",
+      "seed": true,
+      "id": "1346948635347582978",
+      "note": "Display name on X is Josh Man"
+    }
+  ],
+  "expanded": [
+    {
+      "handle": "LukeGromen",
+      "name": "Luke Gromen",
+      "role": "FFTT; fiscal / energy / dollar macro",
+      "seed": false,
+      "id": "2936015319"
+    },
+    {
+      "handle": "RaoulGMI",
+      "name": "Raoul Pal",
+      "role": "GMI / Real Vision; macro + exponential age",
+      "seed": false,
+      "id": "2453385626"
+    },
+    {
+      "handle": "jessefelder",
+      "name": "Jesse Felder",
+      "role": "The Felder Report; valuation / bubbles",
+      "seed": false,
+      "id": "1473431"
+    },
+    {
+      "handle": "MacroAlf",
+      "name": "Alf (Macro Compass)",
+      "role": "Institutional macro (low recent activity)",
+      "seed": false,
+      "id": "1344759366671589376",
+      "active": false
+    }
+  ]
+}

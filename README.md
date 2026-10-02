@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JT Finance Paper
 
-## Getting Started
+Personal **daily + weekly** macro newspaper for Jeremy Tan (`wytanj`).  
+Full-width newspaper UI (comfortable on a 34" monitor). Timezone **Asia/Singapore**.
 
-First, run the development server:
+## Open
+
+| Edition | URL |
+|--------|-----|
+| **Daily** | `/` — key numbers, charts, voice-distilled headlines, macro wire |
+| **Weekly** | `/weekly` — week-in-themes digest + market snapshot |
+
+Local: `npm run dev` → http://localhost:3000  
+Dogbot one-liner: open the site root for today’s paper; `/weekly` for the Sunday digest.
+
+## Voices
+
+Edit **`data/voices.json`** to add/remove handles. Seeds:
+
+| Handle | Name |
+|--------|------|
+| `@LynAldenContact` | Lyn Alden |
+| `@PunterJeff` | Jeff Walton (Strive CRO; old `@JeffWalton_` suspended) |
+| `@ColeMacro` | Matt Cole (Strive CEO) |
+| `@JoshMandell6` | Josh Mandell (rates / bonds) |
+
+Expanded: `@LukeGromen`, `@RaoulGMI`, `@jessefelder` (+ `@MacroAlf` marked inactive).
+
+Headlines are distilled offline (box X tooling) into `data/daily.json` / `data/weekly.json` with **attribution + x.com links**. The site does not post or DM.
+
+## Markets
+
+Numbers for **SPX, DXY, US10Y, BTC, gold, WTI, USD/SGD** via **Yahoo Finance** public chart API (delayed). Sparklines are last ~5 daily closes.
+
+Refresh on the box:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node scripts/refresh-markets.mjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or hit `/api/refresh` (protect with `CRON_SECRET` in production).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cron (Vercel)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`vercel.json`:
 
-## Learn More
+| Job | Schedule (UTC) | SGT |
+|-----|----------------|-----|
+| `/api/cron/daily` | `0 23 * * *` | **07:00 daily** |
+| `/api/cron/weekly` | `0 12 * * 0` | **Sunday 20:00** |
 
-To learn more about Next.js, take a look at the following resources:
+Set env **`CRON_SECRET`** and configure Vercel Cron auth (`Authorization: Bearer …`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**v1 behavior:** cron refreshes **market quotes**. Headline distill stays **seeded / box-updated** (X API on Vercel needs a bearer token you choose to add later; Finance MCP was not available).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+On Vercel’s read-only FS, prefer re-deploying after `scripts/refresh-markets.mjs`, or wire Vercel KV later. Cron still returns fresh Yahoo JSON for monitoring.
 
-## Deploy on Vercel
+## Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 15 (App Router) + TypeScript + Tailwind v4  
+- Static JSON editions under `data/`  
+- Simple SVG sparklines (no chart vendor)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy
+
+```bash
+npm i
+npm run build
+vercel --prod   # or link GitHub repo in Vercel dashboard
+```
+
+## Disclaimer
+
+Not investment advice. Attribution footers link to source posts; verify before acting.

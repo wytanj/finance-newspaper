@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #f6f1e8;
+  --bg-card: #fffdf8;
+  --ink: #1a1714;
+  --ink-muted: #5c564e;
+  --rule: #cfc4b4;
+  --accent: #8b1e1e;
+  --ink-up: #1f6b3a;
+  --ink-down: #9b1c1c;
+  --max: 1520px;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  line-height: 1.45;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent); }
+
+.shell {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.25rem 1.75rem 3rem;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.masthead { border-bottom: 3px double var(--ink); padding-bottom: 0.75rem; margin-bottom: 1.25rem; }
+.masthead-top { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--sans); font-size: 0.78rem; color: var(--ink-muted); letter-spacing: 0.04em; text-transform: uppercase; }
+.masthead-main { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin: 0.35rem 0 0.75rem; }
+.paper-title { font-size: clamp(2.4rem, 5vw, 4rem); margin: 0; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+.paper-title a { text-decoration: none; }
+.paper-date { font-family: var(--sans); font-size: 1rem; color: var(--ink-muted); margin: 0; }
+.status { font-weight: 600; color: var(--accent); }
+
+.tabs { display: flex; gap: 0.5rem; font-family: var(--sans); }
+.tab { padding: 0.35rem 0.9rem; border: 1px solid var(--rule); background: transparent; text-decoration: none; font-size: 0.9rem; }
+.tab.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+.lead {
+  font-size: 1.2rem;
+  max-width: 70ch;
+  margin: 0 0 1.5rem;
+  color: var(--ink);
 }
+
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; border-bottom: 1px solid var(--rule); margin-bottom: 0.75rem; }
+.section-head h2 { font-size: 1.15rem; margin: 0; letter-spacing: 0.02em; text-transform: uppercase; font-family: var(--sans); }
+.section-sub { margin: 0; font-family: var(--sans); font-size: 0.75rem; color: var(--ink-muted); }
+
+.markets { margin-bottom: 1.75rem; }
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.65rem;
+}
+.market-card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  padding: 0.7rem 0.8rem 0.55rem;
+}
+.market-label { font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted); }
+.market-row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; margin: 0.2rem 0; }
+.market-price { font-size: 1.35rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.market-chg { font-family: var(--sans); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.chg-up { color: var(--ink-up); }
+.chg-down { color: var(--ink-down); }
+.chg-flat { color: var(--ink-muted); }
+.market-sym { font-family: var(--mono); font-size: 0.65rem; color: var(--ink-muted); margin-top: 0.15rem; }
+
+.layout-2 {
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr;
+  gap: 1.5rem;
+}
+@media (max-width: 960px) {
+  .layout-2 { grid-template-columns: 1fr; }
+}
+
+.headlines { display: flex; flex-direction: column; gap: 1.1rem; }
+.headline {
+  background: var(--bg-card);
+  border-top: 1px solid var(--rule);
+  padding: 0.85rem 0 0.4rem;
+}
+.headline.featured { border-top: 3px solid var(--ink); padding-top: 1rem; }
+.theme-tag { font-family: var(--sans); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0 0 0.25rem; }
+.headline h3 { margin: 0 0 0.4rem; font-size: 1.45rem; line-height: 1.2; }
+.headline.featured h3 { font-size: clamp(1.6rem, 2.4vw, 2.1rem); }
+.dek { margin: 0 0 0.65rem; color: var(--ink-muted); font-size: 1.02rem; }
+.cites { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+.cites a { display: block; text-decoration: none; font-size: 0.95rem; padding: 0.35rem 0.5rem; border-left: 2px solid var(--rule); }
+.cites a:hover { border-left-color: var(--accent); background: rgba(139,30,30,0.04); }
+.handle { font-family: var(--sans); font-size: 0.78rem; font-weight: 600; display: block; margin-bottom: 0.15rem; }
+.snippet { color: var(--ink-muted); font-style: italic; }
+
+.wire-list { list-style: none; margin: 0; padding: 0; }
+.wire-list li { border-bottom: 1px solid var(--rule); }
+.wire-list a { display: block; padding: 0.7rem 0; text-decoration: none; }
+.wire-list strong { display: block; font-size: 1.02rem; margin-bottom: 0.2rem; }
+.wire-sum { display: block; font-size: 0.9rem; color: var(--ink-muted); }
+
+.themes { display: flex; flex-direction: column; gap: 1rem; }
+.theme-card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  padding: 1rem 1.1rem;
+}
+.theme-card h3 { margin: 0 0 0.45rem; font-size: 1.3rem; }
+.theme-card p { margin: 0 0 0.5rem; color: var(--ink-muted); }
+.handles { font-family: var(--sans); font-size: 0.8rem; color: var(--ink-muted); }
+.handles a { margin-right: 0.5rem; }
+
+.paper-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--ink);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+.paper-footer code { font-family: var(--mono); font-size: 0.8rem; background: rgba(0,0,0,0.05); padding: 0.1rem 0.3rem; }
+.voices-line { margin: 0.5rem 0; }
+.edit-hint { margin: 0.5rem 0 0; }
