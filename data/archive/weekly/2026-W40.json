@@ -1,37 +1,53 @@
 {
   "edition": "weekly",
-  "weekOf": "2026-09-28",
-  "weekEnd": "2026-10-04",
+  "weekOf": "2026-09-29",
+  "weekEnd": "2026-10-02",
   "timezone": "Asia/Singapore",
-  "publishedAt": "2026-10-04T19:28:11+08:00",
-  "generatedAt": "2026-10-04T19:28:11+08:00",
-  "status": "sunday-edition",
+  "publishedAt": "2026-10-02T07:00:00+08:00",
+  "generatedAt": "2026-10-02T21:20:00+08:00",
+  "status": "seeded+robotics+actionables+archived",
   "masthead": "JT Finance Paper \u2014 Weekly",
-  "tagline": "ISO week 2026-W40 \u00b7 macro + robotics \u00b7 Asia/Singapore",
-  "lead": "Sunday edition of ISO week 2026-W40 (28 Sep\u20134 Oct), past Friday\u2019s close \u2014 not the 2 Oct mid-week issue. Fiscal dominance in Alden\u2019s 3 Oct chart; 10-year week close 5.28% (Friday about 5.26\u20135.28%); Freddie 30-year 7.28% as of 1 Oct, up from 7.03%; Strive complex about $1.25B last week ($944M ASST, $310M SATA) versus an MSTR week in March 2023. Robotics digest carried forward.",
+  "tagline": "Week in macro + robotics \u00b7 Asia/Singapore",
+  "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise \u2014 and a robotics digest: Atlas hands for the factory, Figure\u2019s molten decommission, and the reliability gap Physical Intelligence keeps naming.",
   "themes": [
     {
-      "title": "Fiscal dominance, charted",
-      "body": "On 3 October Lyn Alden posts the chart: if you want fiscal dominance in a picture, this is it. That is the week\u2019s regime frame.",
+      "title": "The bond market is the story",
+      "body": "10Y yields printed multi-decade highs then eased; mortgage rates jumped to 7.28%. Alden: curve flat not steep \u2014 the argument is about the level of rates. Gromen: more UST supply as coupons reprice toward 5%+, deficits heading $2T\u2192$3T. Mandell: \u201cbreak it, buy it\u201d between Treasury and Fed.",
+      "handles": [
+        "LynAldenContact",
+        "LukeGromen",
+        "JoshMandell6"
+      ]
+    },
+    {
+      "title": "Fiscal dominance as base case",
+      "body": "Alden\u2019s \u201cgradual print\u201d framing: 7% stimulatory deficits pre-run recessions. Quality-over-quantity FinTwit posture \u2014 signal is what she objects to amid AI noise.",
       "handles": [
         "LynAldenContact"
       ]
     },
     {
-      "title": "10-year week close 5.28%",
-      "body": "Friday\u2019s close was about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%. The tape row uses that print.",
-      "handles": []
-    },
-    {
-      "title": "Freddie 30-year 7.28%, up from 7.03%",
-      "body": "As of 1 October 2026 the Freddie Mac 30-year fixed averaged 7.28%, up from 7.03%. That is the housing number for the week.",
-      "handles": []
-    },
-    {
-      "title": "Strive complex about $1.25B",
-      "body": "Jeff Walton: the Strive security complex traded about $1.25B last week \u2014 $944M on ASST and $310M on SATA \u2014 set beside an MSTR week in March 2023 that also traded about $1.25B.",
+      "title": "Bitcoin capital markets / Strive cluster",
+      "body": "Walton: Buy Bitcoin; SATA at par with heavy volume. Cole: MSCI ESG hostility toward BTC cos is a $21T-benchmark problem. Mandell: BTC rally with no retracement; ASST/STRC microstructure notes.",
       "handles": [
-        "PunterJeff"
+        "PunterJeff",
+        "ColeMacro",
+        "JoshMandell6"
+      ]
+    },
+    {
+      "title": "Energy, manufacturing, AI power",
+      "body": "Gromen ties dollar hegemony to manufacturing and flags Ferguson\u2019s Law (interest > military). Pal flips the AI-power panic: China solar scale and Wright\u2019s Law as the supply answer; Token2049 Singapore next week.",
+      "handles": [
+        "LukeGromen",
+        "RaoulGMI"
+      ]
+    },
+    {
+      "title": "Valuation caution (background)",
+      "body": "Felder\u2019s recent posts (less frequent lately) still hammer bubble/fragility themes \u2014 useful counterweight when BTC and AI narratives run hot.",
+      "handles": [
+        "jessefelder"
       ]
     }
   ],
@@ -74,18 +90,18 @@
       "key": "US10Y",
       "label": "US 10Y Yield",
       "symbol": "^TNX",
-      "price": 5.28,
-      "changePct": null,
+      "price": 5.237,
+      "changePct": 1.022,
       "spark": [
         5.184,
         5.24,
         5.255,
         5.293,
-        5.28
+        5.237
       ],
       "currency": "USD",
       "asOf": "2026-10-01T18:59:54Z",
-      "source": "Wolf Street week close"
+      "source": "Yahoo Finance"
     },
     {
       "key": "BTC",
@@ -158,34 +174,34 @@
   "wire": [
     {
       "id": "n1",
-      "title": "Lyn Alden: fiscal dominance in a chart (3 Oct)",
-      "url": "https://x.com/LynAldenContact/status/2106452961593557481",
-      "source": "X",
-      "summary": "If you want fiscal dominance in a chart, here it is."
+      "title": "Treasury yields pull back from multi-decade highs; bond reversal talk",
+      "url": "https://x.com/i/trending/2105762859372220600",
+      "source": "X News",
+      "summary": "10Y eased after hitting highs not seen since 2002; TLT watched as oversold after a brutal quarter."
     },
     {
       "id": "n2",
-      "title": "Jeff Walton: Strive complex about $1.25B volume last week",
-      "url": "https://x.com/PunterJeff/status/2106396465031737531",
-      "source": "X",
-      "summary": "$944M on ASST and $310M on SATA. Walton compares the week to an MSTR week in March 2023 that also traded about $1.25B."
+      "title": "30-year mortgage hits 7.28%, highest since 2023",
+      "url": "https://x.com/i/trending/2105797540805501075",
+      "source": "X News",
+      "summary": "Biggest weekly jump in four years as long-end Treasury selloff feeds into housing costs."
     },
     {
       "id": "n3",
-      "title": "Wolf Street: 10-year week close 5.28%",
-      "url": "https://wolfstreet.com/2026/10/03/a-wild-week-for-10-year-30-year-treasury-yields-is-there-blood-in-the-streets-yet-is-it-good-enough-for-me-to-nibble/",
-      "source": "Wolf Street",
-      "summary": "Friday close about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%."
+      "title": "US stocks rebound modestly as yields ease from 2002 highs",
+      "url": "https://x.com/i/trending/2105807746109214981",
+      "source": "X News",
+      "summary": "S&P +0.2% on choppy Oct open; Micron AI memory and energy helped the bounce."
     },
     {
       "id": "n4",
-      "title": "Freddie Mac: 30-year mortgage 7.28% as of 1 Oct 2026",
-      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373202/0/en/mortgage-rates-average-7-28.html",
-      "source": "Freddie Mac",
-      "summary": "30-year fixed averaged 7.28% as of 1 October 2026, up from 7.03%."
+      "title": "Stablecoin issuers fill gap from China\u2019s Treasury sales",
+      "url": "https://x.com/i/trending/2105779380559438034",
+      "source": "X News",
+      "summary": "SF Fed note: Tether/Circle Treasury holdings offset ~40% of China\u2019s reductions."
     }
   ],
-  "sourcesNote": "Sunday edition 2026-10-04 (Asia/Singapore). Verified prints only: Lyn Alden fiscal-dominance chart (3 Oct); Jeff Walton on Strive complex volume (about $1.25B; $944M ASST, $310M SATA) versus an MSTR week in March 2023; US 10-year Friday close about 5.26\u20135.28% (Wolf Street week close 5.28%); Freddie Mac 30-year mortgage 7.28% as of 1 Oct 2026, up from 7.03%. The US 10Y tape row is that Wolf Street week close, not a fresh Yahoo quote. Other tape rows are the prior Yahoo snapshot and are not new verified prints. Robotics band is the existing seeded set. Not investment advice.",
+  "sourcesNote": "Weekly is a human-style distill of the daily voice set (macro + robotics). Markets: Yahoo Finance. Not investment advice.",
   "robotics": {
     "masthead": "Robotics",
     "tagline": "Week in physical AI \u00b7 Asia/Singapore",
@@ -312,33 +328,33 @@
   "actionables": [
     {
       "kind": "decision",
-      "title": "Does the 5.28% 10-year close govern next week?",
-      "detail": "Wolf Street week close 5.28%; Friday was about 5.26\u20135.28%. Decide if the long end is still the portfolio governor after ISO week 2026-W40, or if the print was the spike.",
-      "related": "US10Y"
+      "title": "Is the bond market still the week\u2019s primary risk?",
+      "detail": "10Y highs \u2192 ease; mortgages at 7.28%. Decide if long-end UST remains the portfolio governor for the next week, or if equity/BTC narratives reassert.",
+      "related": "bonds"
     },
     {
       "kind": "watch",
-      "title": "Mortgage step-up: 7.03% to 7.28%",
-      "detail": "Freddie 30-year 7.28% as of 1 Oct 2026, up from 7.03%. Watch housing only against that verified move.",
-      "related": "mortgages"
+      "title": "Mortgage 7.28% feedback into housing / credit",
+      "detail": "Highest since 2023. Watch applications, builder commentary, and whether fiscal-dominance \u2018gradual print\u2019 offsets the rate hit.",
+      "related": "housing"
     },
     {
       "kind": "move",
-      "title": "Log the Strive week: $944M ASST, $310M SATA",
-      "detail": "Complex volume about $1.25B. Put the week on the capital-markets log next to Walton\u2019s March 2023 MSTR comparison, which also traded about $1.25B.",
-      "related": "ASST / SATA"
+      "title": "BTC capital markets \u2014 ESG/MSCI vs SATA flows",
+      "detail": "Cole\u2019s MSCI ESG hostility framing + Walton\u2019s SATA-at-par volume. Track whether BTC cos stay in (or leave) major benchmarks and how that hits secondary flows.",
+      "related": "BTC"
     },
     {
       "kind": "decision",
-      "title": "Take Alden\u2019s chart as the base case?",
-      "detail": "The 3 Oct fiscal-dominance chart is the week\u2019s macro frame. Decide whether to keep fiscal dominance as the base case into the next ISO week.",
-      "related": "fiscal dominance"
+      "title": "Factory robotics: real deployment or still theater?",
+      "detail": "Hyundai RMAC (Atlas on Georgia line) + UBTECH Liuzhou cycles lean \u2018real\u2019. Figure\u2019s F.02 melt is brand/ops. Decide which names go on the weekly watch vs remain narrative.",
+      "related": "robotics"
     },
     {
       "kind": "watch",
-      "title": "ASST versus SATA inside the $1.25B",
-      "detail": "Of the Strive complex, $944M printed on ASST and $310M on SATA. Watch which leg carries next week\u2019s volume.",
-      "related": "Strive"
+      "title": "Hands as the product (Atlas 13-DOF vs Clone hydraulic)",
+      "detail": "Two philosophies landed the same week. Watch which design language OEMs adopt for mass production \u2014 manufacturing ruggedness vs anatomical fidelity.",
+      "related": "robotics"
     }
   ]
 }

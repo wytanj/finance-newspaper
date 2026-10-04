@@ -1,39 +1,57 @@
 {
-  "updatedAt": "2026-10-02T21:20:00+08:00",
+  "updatedAt": "2026-10-04T19:28:11+08:00",
   "daily": [
+    {
+      "date": "2026-10-02",
+      "masthead": "JT Finance Paper",
+      "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
+      "lead": "Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI \u2014 plus a first-class robotics beat: Atlas ha",
+      "status": "seeded+robotics+actionables+archived",
+      "path": "archive/daily/2026-10-02.json"
+    },
     {
       "date": "2026-10-01",
       "masthead": "JT Finance Paper",
-      "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
-      "lead": "Archive seed (Wed) — Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI — plus a first-class ro",
+      "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
+      "lead": "Archive seed (Wed) \u2014 Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI \u2014 plus a first-class ro",
       "status": "archived-seed",
       "path": "archive/daily/2026-10-01.json"
     },
     {
       "date": "2026-09-30",
       "masthead": "JT Finance Paper",
-      "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
-      "lead": "Archive seed (Tue) — Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI — plus a first-class ro",
+      "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
+      "lead": "Archive seed (Tue) \u2014 Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI \u2014 plus a first-class ro",
       "status": "archived-seed",
       "path": "archive/daily/2026-09-30.json"
     },
     {
       "date": "2026-09-29",
       "masthead": "JT Finance Paper",
-      "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
-      "lead": "Archive seed (Mon) — Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI — plus a first-class ro",
+      "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
+      "lead": "Archive seed (Mon) \u2014 Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI \u2014 plus a first-class ro",
       "status": "archived-seed",
       "path": "archive/daily/2026-09-29.json"
     }
   ],
   "weekly": [
     {
+      "id": "2026-W40",
+      "weekOf": "2026-09-29",
+      "weekEnd": "2026-10-02",
+      "masthead": "JT Finance Paper \u2014 Weekly",
+      "tagline": "Week in macro + robotics \u00b7 Asia/Singapore",
+      "lead": "A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise \u2014 and a robotics digest: Atlas hands for ",
+      "status": "seeded+robotics+actionables+archived",
+      "path": "archive/weekly/2026-W40.json"
+    },
+    {
       "id": "2026-W39",
       "weekOf": "2026-09-22",
       "weekEnd": "2026-09-28",
-      "masthead": "JT Finance Paper — Weekly",
-      "tagline": "Week in macro + robotics · Asia/Singapore",
-      "lead": "Archive seed (W39) — A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise — and a robotics dig",
+      "masthead": "JT Finance Paper \u2014 Weekly",
+      "tagline": "Week in macro + robotics \u00b7 Asia/Singapore",
+      "lead": "Archive seed (W39) \u2014 A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise \u2014 and a robotics dig",
       "status": "archived-seed",
       "path": "archive/weekly/2026-W39.json"
     },
@@ -41,9 +59,9 @@
       "id": "2026-W38",
       "weekOf": "2026-09-15",
       "weekEnd": "2026-09-21",
-      "masthead": "JT Finance Paper — Weekly",
-      "tagline": "Week in macro + robotics · Asia/Singapore",
-      "lead": "Archive seed (W38) — A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise — and a robotics dig",
+      "masthead": "JT Finance Paper \u2014 Weekly",
+      "tagline": "Week in macro + robotics \u00b7 Asia/Singapore",
+      "lead": "Archive seed (W38) \u2014 A week defined by long-end UST stress, fiscal-dominance confirmation from Alden, Strive/Bitcoin market-structure noise \u2014 and a robotics dig",
       "status": "archived-seed",
       "path": "archive/weekly/2026-W38.json"
     }

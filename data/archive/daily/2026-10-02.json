@@ -1,13 +1,13 @@
 {
   "edition": "daily",
-  "date": "2026-10-04",
+  "date": "2026-10-02",
   "timezone": "Asia/Singapore",
-  "publishedAt": "2026-10-04T19:28:11+08:00",
-  "generatedAt": "2026-10-04T19:28:11+08:00",
-  "status": "sunday-edition",
+  "publishedAt": "2026-10-02T07:00:00+08:00",
+  "generatedAt": "2026-10-02T21:20:00+08:00",
+  "status": "seeded+robotics+actionables+archived",
   "masthead": "JT Finance Paper",
   "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
-  "lead": "Sunday, 4 October 2026. Lyn Alden puts fiscal dominance in a chart. The US 10-year Friday close was about 5.26\u20135.28% (Wolf Street week close: 5.28%). Freddie\u2019s 30-year mortgage is 7.28% as of 1 Oct, up from 7.03%. Jeff Walton: the Strive complex traded about $1.25B last week ($944M ASST, $310M SATA), beside an MSTR week in March 2023. Robotics beat unchanged.",
+  "lead": "Fiscal dominance, a flat-but-repricing UST curve, Bitcoin capital-markets plumbing, and the energy constraint on AI \u2014 plus a first-class robotics beat: Atlas hands built for mass production, Figure\u2019s F.02 decommission, and the reliability gap in physical AI.",
   "markets": [
     {
       "key": "SPX",
@@ -47,18 +47,18 @@
       "key": "US10Y",
       "label": "US 10Y Yield",
       "symbol": "^TNX",
-      "price": 5.28,
-      "changePct": null,
+      "price": 5.237,
+      "changePct": 1.022,
       "spark": [
         5.184,
         5.24,
         5.255,
         5.293,
-        5.28
+        5.237
       ],
       "currency": "USD",
       "asOf": "2026-10-01T18:59:54Z",
-      "source": "Wolf Street week close"
+      "source": "Yahoo Finance"
     },
     {
       "key": "BTC",
@@ -131,80 +131,188 @@
   "headlines": [
     {
       "id": "h1",
-      "title": "Fiscal dominance, in a chart",
-      "dek": "On 3 October, Lyn Alden posts the picture she says is fiscal dominance \u2014 the regime frame for this Sunday edition.",
-      "theme": "Fiscal dominance",
+      "title": "Fiscal dominance still the macro regime \u2014 gradual print, not the big print",
+      "dek": "Lyn Alden says she posts less because the call landed: stimulatory deficits reshape recessions rather than outlaw them; signal is in the exceptions.",
+      "theme": "Fiscal / inflation",
       "voices": [
         {
           "handle": "LynAldenContact",
           "name": "Lyn Alden",
-          "postId": "2106452961593557481",
-          "url": "https://x.com/LynAldenContact/status/2106452961593557481",
-          "snippet": "If you want fiscal dominance in a chart, here it is."
+          "postId": "2105493759568097597",
+          "url": "https://x.com/LynAldenContact/status/2105493759568097597",
+          "snippet": "I called for fiscal dominance, inflation issues\u2026 the gradual print, not the big print, and that's what we've got."
+        },
+        {
+          "handle": "LynAldenContact",
+          "name": "Lyn Alden",
+          "postId": "2105482292978504160",
+          "url": "https://x.com/LynAldenContact/status/2105482292978504160",
+          "snippet": "The US is pre-running potential recessions with 7% stimulatory deficits. That shapes potential recessions; doesn't outlaw them."
         }
       ]
     },
     {
       "id": "h2",
-      "title": "Strive complex about $1.25B last week \u2014 ASST $944M, SATA $310M",
-      "dek": "Jeff Walton sets that weekly volume beside a MicroStrategy week in March 2023, when MSTR also traded about $1.25B in a single week.",
-      "theme": "Strive / Bitcoin capital markets",
+      "title": "Nobody is \u201closing the end\u201d of the curve \u2014 flat, not steep; rates adjusting to reality",
+      "dek": "Alden on the bond debate: the market is repricing what rates should be. Gromen warns UST supply and reshoring are secularly inflationary.",
+      "theme": "Rates / bonds",
       "voices": [
         {
-          "handle": "PunterJeff",
-          "name": "Jeff Walton",
-          "postId": "2106396465031737531",
-          "url": "https://x.com/PunterJeff/status/2106396465031737531",
-          "snippet": "Strive security complex traded $1.25 billion in volume last week. $944M on ASST. $310M on SATA. Back in March of 2023, MSTR traded $1.25 billion in volume in a single week."
+          "handle": "LynAldenContact",
+          "name": "Lyn Alden",
+          "postId": "2105481171752649000",
+          "url": "https://x.com/LynAldenContact/status/2105481171752649000",
+          "snippet": "Nobody is \"losing the end\" of the bond curve. The yield curve is flat, not steep\u2026 Nothing stops this train."
+        },
+        {
+          "handle": "LukeGromen",
+          "name": "Luke Gromen",
+          "postId": "2105696699499049474",
+          "url": "https://x.com/LukeGromen/status/2105696699499049474",
+          "snippet": "There's going to be A LOT more USTs for sale\u2026 debt stack reprices from <4% to 5% or more\u2026 deficits from $2T toward $3T."
+        },
+        {
+          "handle": "JoshMandell6",
+          "name": "Josh Mandell",
+          "postId": "2105029403902394679",
+          "url": "https://x.com/JoshMandell6/status/2105029403902394679",
+          "snippet": "Treasury and Fed are playing \"You break it, you bought it.\" First they break the bond market and then they buy it."
         }
       ]
     },
     {
       "id": "h3",
-      "title": "US 10-year Friday close about 5.26\u20135.28%",
-      "dek": "Wolf Street\u2019s week close is 5.28%. This edition uses that print \u2014 not a fresh intraday quote.",
-      "theme": "Rates",
-      "voices": []
+      "title": "Bitcoin still the bet \u2014 Q4 loud, SATA humming, Amplification thesis",
+      "dek": "Strive cluster (Walton / Cole / Mandell) leaning into Bitcoin capital-markets plumbing: buy BTC, SATA at par, MSCI/ESG pushback, total-return framing.",
+      "theme": "Bitcoin / capital markets",
+      "voices": [
+        {
+          "handle": "PunterJeff",
+          "name": "Jeff Walton",
+          "postId": "2105537297194291255",
+          "url": "https://x.com/PunterJeff/status/2105537297194291255",
+          "snippet": "Had to confirm. Buy Bitcoin."
+        },
+        {
+          "handle": "PunterJeff",
+          "name": "Jeff Walton",
+          "postId": "2105443460102934732",
+          "url": "https://x.com/PunterJeff/status/2105443460102934732",
+          "snippet": "SATA traded at par\u2026 $78M volume (57% above 30-day average). Hummmmmmming."
+        },
+        {
+          "handle": "ColeMacro",
+          "name": "Matt Cole",
+          "postId": "2105326266169835938",
+          "url": "https://x.com/ColeMacro/status/2105326266169835938",
+          "snippet": "MSCI\u2026 $21T benchmarked\u2026 ESG-driven investing and treatment of Bitcoin companies a serious concern."
+        },
+        {
+          "handle": "JoshMandell6",
+          "name": "Josh Mandell",
+          "postId": "2105814303752290646",
+          "url": "https://x.com/JoshMandell6/status/2105814303752290646",
+          "snippet": "A funny thing happened on the way to debasement \u2014 Bitcoin started to rally and there was no retracement."
+        }
+      ]
     },
     {
       "id": "h4",
-      "title": "Freddie 30-year mortgage 7.28% as of 1 October",
-      "dek": "Up from 7.03%. The housing rate in this edition is that 1 Oct 2026 Freddie print.",
-      "theme": "Mortgages",
-      "voices": []
+      "title": "Reshoring + electricity = inflation; dollar hegemony tied to manufacturing",
+      "dek": "Gromen: flat US electricity for 20 years finally turning; bond consensus underestimates the real-rate hit. Hegemons that can't make militaries don't stay hegemons.",
+      "theme": "Energy / geopolitics",
+      "voices": [
+        {
+          "handle": "LukeGromen",
+          "name": "Luke Gromen",
+          "postId": "2105432316789014832",
+          "url": "https://x.com/LukeGromen/status/2105432316789014832",
+          "snippet": "Few metrics better than electricity production. US flat for 20 years\u2026 catching up without crushing bonds in real terms isn't possible."
+        },
+        {
+          "handle": "LukeGromen",
+          "name": "Luke Gromen",
+          "postId": "2105679519596122455",
+          "url": "https://x.com/LukeGromen/status/2105679519596122455",
+          "snippet": "Reshoring the US is a bit more involved than buying copper futures\u2026 It is secularly inflationary, bigly."
+        },
+        {
+          "handle": "LukeGromen",
+          "name": "Luke Gromen",
+          "postId": "2105660120164426123",
+          "url": "https://x.com/LukeGromen/status/2105660120164426123",
+          "snippet": "Dollar dominance = US manufacturing decline\u2026 Hegemons whose interest expense > military spend do not stay hegemons long."
+        }
+      ]
+    },
+    {
+      "id": "h5",
+      "title": "AI power panic vs solar scale \u2014 Raoul\u2019s Exponential Age counter-narrative",
+      "dek": "Pal argues the political story (data centres eat power/water) gets the direction wrong; China solar buildout and Wright\u2019s Law are the underappreciated supply response.",
+      "theme": "AI / energy",
+      "voices": [
+        {
+          "handle": "RaoulGMI",
+          "name": "Raoul Pal",
+          "postId": "2105840822977536085",
+          "url": "https://x.com/RaoulGMI/status/2105840822977536085",
+          "snippet": "Data centres are going to eat all the electricity\u2026 That's the political narrative\u2026 every part of that gets the direction wrong."
+        },
+        {
+          "handle": "RaoulGMI",
+          "name": "Raoul Pal",
+          "postId": "2105750403476316214",
+          "url": "https://x.com/RaoulGMI/status/2105750403476316214",
+          "snippet": "China added more solar last year than the entire world's standing stock of solar. Wright's Law doing what it always does."
+        }
+      ]
     }
   ],
   "wire": [
     {
       "id": "n1",
-      "title": "Lyn Alden: fiscal dominance in a chart (3 Oct)",
-      "url": "https://x.com/LynAldenContact/status/2106452961593557481",
-      "source": "X",
-      "summary": "If you want fiscal dominance in a chart, here it is."
+      "title": "Treasury yields pull back from multi-decade highs; bond reversal talk",
+      "url": "https://x.com/i/trending/2105762859372220600",
+      "source": "X News",
+      "summary": "10Y eased after hitting highs not seen since 2002; TLT watched as oversold after a brutal quarter."
     },
     {
       "id": "n2",
-      "title": "Jeff Walton: Strive complex about $1.25B volume last week",
-      "url": "https://x.com/PunterJeff/status/2106396465031737531",
-      "source": "X",
-      "summary": "$944M on ASST and $310M on SATA. Walton compares the week to an MSTR week in March 2023 that also traded about $1.25B."
+      "title": "30-year mortgage hits 7.28%, highest since 2023",
+      "url": "https://x.com/i/trending/2105797540805501075",
+      "source": "X News",
+      "summary": "Biggest weekly jump in four years as long-end Treasury selloff feeds into housing costs."
     },
     {
       "id": "n3",
-      "title": "Wolf Street: 10-year week close 5.28%",
-      "url": "https://wolfstreet.com/2026/10/03/a-wild-week-for-10-year-30-year-treasury-yields-is-there-blood-in-the-streets-yet-is-it-good-enough-for-me-to-nibble/",
-      "source": "Wolf Street",
-      "summary": "Friday close about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%."
+      "title": "US stocks rebound modestly as yields ease from 2002 highs",
+      "url": "https://x.com/i/trending/2105807746109214981",
+      "source": "X News",
+      "summary": "S&P +0.2% on choppy Oct open; Micron AI memory and energy helped the bounce."
     },
     {
       "id": "n4",
-      "title": "Freddie Mac: 30-year mortgage 7.28% as of 1 Oct 2026",
-      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373202/0/en/mortgage-rates-average-7-28.html",
-      "source": "Freddie Mac",
-      "summary": "30-year fixed averaged 7.28% as of 1 October 2026, up from 7.03%."
+      "title": "Stablecoin issuers fill gap from China\u2019s Treasury sales",
+      "url": "https://x.com/i/trending/2105779380559438034",
+      "source": "X News",
+      "summary": "SF Fed note: Tether/Circle Treasury holdings offset ~40% of China\u2019s reductions."
+    },
+    {
+      "id": "n5",
+      "title": "French bond yields signal fiscal strain not seen since 2012",
+      "url": "https://x.com/i/trending/2105236060833792283",
+      "source": "X News",
+      "summary": "OAT\u2013Bund spread ~1.3\u20131.4pp; debt ~119% of GDP and large 2027 funding needs."
+    },
+    {
+      "id": "n6",
+      "title": "Gold hovers near $4,200 amid yields, dollar, and PCE",
+      "url": "https://x.com/i/trending/2105174941188718720",
+      "source": "X News",
+      "summary": "High real yields and DXY cap upside; traders split on $4,100 vs $4,210+."
     }
   ],
-  "sourcesNote": "Sunday edition 2026-10-04 (Asia/Singapore). Verified prints only: Lyn Alden fiscal-dominance chart (3 Oct); Jeff Walton on Strive complex volume (about $1.25B; $944M ASST, $310M SATA) versus an MSTR week in March 2023; US 10-year Friday close about 5.26\u20135.28% (Wolf Street week close 5.28%); Freddie Mac 30-year mortgage 7.28% as of 1 Oct 2026, up from 7.03%. The US 10Y tape row is that Wolf Street week close, not a fresh Yahoo quote. Other tape rows are the prior Yahoo snapshot and are not new verified prints. Robotics band is the existing seeded set. Not investment advice.",
+  "sourcesNote": "Markets: Yahoo Finance (delayed). Headlines distilled from public X posts; each card links to the source post. Robotics beat uses tagged voices in data/voices.json. Not investment advice.",
   "robotics": {
     "masthead": "Robotics",
     "tagline": "Humanoids \u00b7 hands \u00b7 factory AI \u00b7 Asia/Singapore",
@@ -413,33 +521,39 @@
   "actionables": [
     {
       "kind": "watch",
-      "title": "US 10-year \u2014 hold the 5.28% week close?",
-      "detail": "Friday close about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%. Watch whether the long end stays at that close or slips back through the band.",
+      "title": "US10Y / long end \u2014 pullback or retest?",
+      "detail": "10Y printed multi-decade highs then eased. Alden: curve flat, not steep \u2014 watch whether yields retest highs or mortgage/credit feedback forces a deeper bond rally.",
       "related": "US10Y"
     },
     {
       "kind": "watch",
-      "title": "Freddie 30-year at 7.28%",
-      "detail": "As of 1 Oct 2026 the 30-year averaged 7.28%, up from 7.03%. Watch the next PMMS against that step-up. No other mortgage print is in this edition.",
-      "related": "mortgages"
-    },
-    {
-      "kind": "watch",
-      "title": "Strive complex volume: about $1.25B",
-      "detail": "Walton: about $1.25B last week, $944M on ASST and $310M on SATA. Watch whether that weekly complex volume is a one-off or the new run-rate.",
-      "related": "ASST / SATA"
+      "title": "BTC capital-markets plumbing (SATA / Strive cluster)",
+      "detail": "Walton/Cole/Mandell leaning into buy-BTC + SATA-at-par + MSCI/ESG pushback. Watch volume at par and whether ESG-benchmark hostility becomes a flow story.",
+      "related": "BTC"
     },
     {
       "kind": "move",
-      "title": "Set Strive beside the March 2023 MSTR week",
-      "detail": "Walton\u2019s comparison is volume to volume: Strive\u2019s about $1.25B week versus an MSTR week in March 2023 that also traded about $1.25B. Map that analogy; this edition does not add a separate price target.",
-      "related": "Strive"
+      "title": "Map AI power vs solar scale (Pal vs Gromen)",
+      "detail": "Gromen: flat US electricity finally turning; reshoring = inflation. Pal: China solar + Wright\u2019s Law undercuts the \u2018data centres eat the grid\u2019 panic. Track electricity + solar capacity prints, not just headlines.",
+      "related": "energy"
     },
     {
       "kind": "decision",
-      "title": "Fiscal dominance as the frame \u2014 keep it?",
-      "detail": "Alden\u2019s 3 Oct chart is the regime call. Decide whether the 5.28% 10-year close and the 7.28% mortgage are symptoms of fiscal dominance or a one-week spike.",
-      "related": "fiscal dominance"
+      "title": "Fiscal dominance as base case \u2014 keep or fade?",
+      "detail": "Alden\u2019s gradual-print framing (stimulatory deficits reshape recessions) is the regime call. Decide whether portfolio risk is still \u2018inflation/fiscal\u2019 rather than classic soft-landing rates.",
+      "related": "fiscal"
+    },
+    {
+      "kind": "watch",
+      "title": "Robotics tape: ISRG \u00b7 BOTZ \u00b7 NVDA",
+      "detail": "Hands race (Atlas manufacturing hand vs Clone anatomical) and Figure F.02\u2192F.03 ops theater. Watch whether robotics beta holds when macro yields bite.",
+      "related": "robotics"
+    },
+    {
+      "kind": "move",
+      "title": "Reliability gap in physical AI \u2014 filter demos",
+      "detail": "Finn/Jim Fan: touch, latency, and hours of real work beat one-box demos. Prefer fleet/factory datapoints (Hyundai RMAC, UBTECH Liuzhou) over viral clips.",
+      "related": "robotics"
     }
   ]
 }

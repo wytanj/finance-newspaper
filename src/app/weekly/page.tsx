@@ -4,7 +4,7 @@ import { WireList } from "@/components/WireList";
 import { RoboticsSection } from "@/components/RoboticsSection";
 import { ActionablesSection } from "@/components/ActionablesSection";
 import { PaperFooter } from "@/components/PaperFooter";
-import { loadWeekly, loadVoices } from "@/lib/loadEdition";
+import { isoWeekIdFromDate, loadWeekly, loadVoices } from "@/lib/loadEdition";
 
 export const dynamic = "force-dynamic";
 
@@ -33,7 +33,7 @@ export default async function WeeklyPage() {
           <div className="section-head">
             <h2>Week in themes</h2>
             <p className="section-sub">
-              {weekly.weekOf} → {weekly.weekEnd} SGT
+              {isoWeekIdFromDate(weekly.weekOf)} · {weekly.weekOf} → {weekly.weekEnd} SGT
             </p>
           </div>
           <div className="themes">

@@ -137,29 +137,43 @@ async function archiveWeeklyIfNeeded(weekly, newDate) {
   if (oldId === newId) return null;
   await mkdir(path.join(archiveDir, "weekly"), { recursive: true });
   const dest = path.join(archiveDir, "weekly", `${oldId}.json`);
-  if (await exists(dest)) {
-    console.log("archive weekly exists", oldId);
-    return oldId;
-  }
   const copy = {
     ...weekly,
     status: weekly.status?.includes("archived") ? weekly.status : `${weekly.status || "live"}+archived`,
   };
+  if (await exists(dest)) {
+    const existing = JSON.parse(await readFile(dest, "utf8"));
+    const existingEnd = existing.weekEnd || "";
+    const incomingEnd = weekly.weekEnd || "";
+    if (incomingEnd > existingEnd) {
+      // Keep the earlier snapshot (do not delete history) and let the later
+      // edition of this ISO week become the canonical archive file.
+      const side = path.join(archiveDir, "weekly", `${oldId}.prior-${existingEnd}.json`);
+      if (!(await exists(side))) {
+        await writeFile(side, JSON.stringify(existing, null, 2) + "\n");
+        console.log("preserved earlier weekly snapshot", oldId, existingEnd);
+      }
+    } else {
+      console.log("archive weekly exists", oldId);
+      return oldId;
+    }
+  }
   await writeFile(dest, JSON.stringify(copy, null, 2) + "\n");
   const index = await loadIndex();
-  if (!index.weekly.some((e) => e.id === oldId)) {
-    index.weekly.push({
-      id: oldId,
-      weekOf: copy.weekOf,
-      weekEnd: copy.weekEnd,
-      masthead: copy.masthead || "JT Finance Paper",
-      tagline: copy.tagline || "",
-      lead: String(copy.lead || "").slice(0, 160),
-      status: copy.status,
-      path: `archive/weekly/${oldId}.json`,
-    });
-    await saveIndex(index);
-  }
+  const entry = {
+    id: oldId,
+    weekOf: copy.weekOf,
+    weekEnd: copy.weekEnd,
+    masthead: copy.masthead || "JT Finance Paper",
+    tagline: copy.tagline || "",
+    lead: String(copy.lead || "").slice(0, 160),
+    status: copy.status,
+    path: `archive/weekly/${oldId}.json`,
+  };
+  const at = index.weekly.findIndex((e) => e.id === oldId);
+  if (at === -1) index.weekly.push(entry);
+  else if ((index.weekly[at].weekEnd || "") < (copy.weekEnd || "")) index.weekly[at] = entry;
+  await saveIndex(index);
   console.log("archived weekly", oldId);
   return oldId;
 }
