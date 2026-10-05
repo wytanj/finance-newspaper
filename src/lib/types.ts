@@ -18,12 +18,30 @@ export type VoiceCite = {
   snippet: string;
 };
 
+/** What a robotics card proves: a real build, not a take. */
+export type ProofTag = "BOM" | "repo" | "CAD" | "price" | "capacity" | "photo";
+
+export type RoboticsBandId = "markets" | "supply" | "builders";
+
+export type SourceLink = {
+  label: string;
+  url: string;
+};
+
 export type Headline = {
   id: string;
   title: string;
   dek: string;
   theme: string;
   voices: VoiceCite[];
+  /** Robotics cards: visible proof badges (BOM | repo | CAD | price | capacity | photo). */
+  proof?: ProofTag[];
+  /** Robotics cards: which band the card belongs to. */
+  band?: RoboticsBandId;
+  /** Non-X primary sources (filings, product pages, repos). */
+  sources?: SourceLink[];
+  /** Engagement signal, e.g. "395 bookmarks · 350 likes". */
+  signal?: string;
 };
 
 export type WireItem = {
@@ -43,13 +61,39 @@ export type Actionable = {
   related?: string;
 };
 
+export type RoboticsBand = {
+  id: RoboticsBandId;
+  title: string;
+  subtitle?: string;
+  cards: Headline[];
+};
+
+export type RoboticsCostItem = {
+  name: string;
+  /** Display range, e.g. "13,500" or "13,500–14,700". */
+  range: string;
+  currency: string;
+  note?: string;
+  sourceUrl?: string;
+  sourceLabel?: string;
+};
+
 export type RoboticsBlock = {
   masthead?: string;
   tagline?: string;
   markets?: MarketRow[];
+  /** Three-band layout (markets · supply · builders). Preferred for new editions. */
+  bands?: RoboticsBand[];
+  /** "Cost to try" strip with verified prices. */
+  costToTry?: RoboticsCostItem[];
+  /** Footnote under the cost strip (verification date, caveats). */
+  costNote?: string;
+  /** Short editorial filter rule shown under the masthead. */
+  filterNote?: string;
+  /** Legacy (pre-bands) editions. */
   headlines?: Headline[];
   themes?: WeeklyTheme[];
-  wire: WireItem[];
+  wire?: WireItem[];
 };
 
 export type DailyEdition = {

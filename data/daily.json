@@ -1,13 +1,13 @@
 {
   "edition": "daily",
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "timezone": "Asia/Singapore",
-  "publishedAt": "2026-10-04T19:28:11+08:00",
-  "generatedAt": "2026-10-04T19:28:11+08:00",
-  "status": "sunday-edition",
+  "publishedAt": "2026-10-05T14:01:21+08:00",
+  "generatedAt": "2026-10-05T14:01:21+08:00",
+  "status": "monday-robotics-bands",
   "masthead": "JT Finance Paper",
-  "tagline": "Daily macro + robotics from high-signal voices \u00b7 Asia/Singapore",
-  "lead": "Sunday, 4 October 2026. Lyn Alden puts fiscal dominance in a chart. The US 10-year Friday close was about 5.26\u20135.28% (Wolf Street week close: 5.28%). Freddie\u2019s 30-year mortgage is 7.28% as of 1 Oct, up from 7.03%. Jeff Walton: the Strive complex traded about $1.25B last week ($944M ASST, $310M SATA), beside an MSTR week in March 2023. Robotics beat unchanged.",
+  "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
+  "lead": "Monday, 5 October 2026. The robotics beat is rebuilt into three bands: Markets, Supply chain and Builders. Each card is tagged with what it proves, and a verified cost-to-try strip runs from a US$7.50 ESP32 board to a US$20k Asimov kit. Macro is carried over from Sunday's edition with no new verified prints: Lyn Alden's fiscal-dominance chart; the US 10-year's Friday close of about 5.26–5.28% (Wolf Street week close: 5.28%); Freddie's 30-year mortgage at 7.28% as of 1 Oct, up from 7.03%; and Jeff Walton's figure of about $1.25B traded in the Strive complex last week ($944M ASST, $310M SATA).",
   "markets": [
     {
       "key": "SPX",
@@ -132,7 +132,7 @@
     {
       "id": "h1",
       "title": "Fiscal dominance, in a chart",
-      "dek": "On 3 October, Lyn Alden posts the picture she says is fiscal dominance \u2014 the regime frame for this Sunday edition.",
+      "dek": "On 3 October, Lyn Alden posts the picture she says is fiscal dominance — the regime frame for this Sunday edition.",
       "theme": "Fiscal dominance",
       "voices": [
         {
@@ -146,7 +146,7 @@
     },
     {
       "id": "h2",
-      "title": "Strive complex about $1.25B last week \u2014 ASST $944M, SATA $310M",
+      "title": "Strive complex about $1.25B last week — ASST $944M, SATA $310M",
       "dek": "Jeff Walton sets that weekly volume beside a MicroStrategy week in March 2023, when MSTR also traded about $1.25B in a single week.",
       "theme": "Strive / Bitcoin capital markets",
       "voices": [
@@ -161,8 +161,8 @@
     },
     {
       "id": "h3",
-      "title": "US 10-year Friday close about 5.26\u20135.28%",
-      "dek": "Wolf Street\u2019s week close is 5.28%. This edition uses that print \u2014 not a fresh intraday quote.",
+      "title": "US 10-year Friday close about 5.26–5.28%",
+      "dek": "Wolf Street’s week close is 5.28%. This edition uses that print — not a fresh intraday quote.",
       "theme": "Rates",
       "voices": []
     },
@@ -194,7 +194,7 @@
       "title": "Wolf Street: 10-year week close 5.28%",
       "url": "https://wolfstreet.com/2026/10/03/a-wild-week-for-10-year-30-year-treasury-yields-is-there-blood-in-the-streets-yet-is-it-good-enough-for-me-to-nibble/",
       "source": "Wolf Street",
-      "summary": "Friday close about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%."
+      "summary": "Friday close about 5.26–5.28%. Wolf Street’s week close is 5.28%."
     },
     {
       "id": "n4",
@@ -204,217 +204,599 @@
       "summary": "30-year fixed averaged 7.28% as of 1 October 2026, up from 7.03%."
     }
   ],
-  "sourcesNote": "Sunday edition 2026-10-04 (Asia/Singapore). Verified prints only: Lyn Alden fiscal-dominance chart (3 Oct); Jeff Walton on Strive complex volume (about $1.25B; $944M ASST, $310M SATA) versus an MSTR week in March 2023; US 10-year Friday close about 5.26\u20135.28% (Wolf Street week close 5.28%); Freddie Mac 30-year mortgage 7.28% as of 1 Oct 2026, up from 7.03%. The US 10Y tape row is that Wolf Street week close, not a fresh Yahoo quote. Other tape rows are the prior Yahoo snapshot and are not new verified prints. Robotics band is the existing seeded set. Not investment advice.",
+  "sourcesNote": "Monday 2026-10-05 (Asia/Singapore). Macro is carried from the Sunday 2026-10-04 edition. Verified prints only: Lyn Alden fiscal-dominance chart (3 Oct); Jeff Walton on Strive complex volume (about $1.25B; $944M ASST, $310M SATA) versus an MSTR week in March 2023; US 10-year Friday close about 5.26–5.28% (Wolf Street week close 5.28%); Freddie Mac 30-year mortgage 7.28% as of 1 Oct 2026, up from 7.03%. The US 10Y tape row is that Wolf Street week close, not a fresh Yahoo quote. Other tape rows are the prior Yahoo snapshot and are not new verified prints. Robotics, rebuilt 5 Oct 2026 (SGT): three bands (Markets, Supply chain, Builders), 14 cards, each badged with what it proves (BOM, repo, CAD, price, capacity, photo). Posts were pulled live from X on 5 Oct; engagement counts are as of that pull. Deal figures were checked against primary releases: AMD–World Labs US$8.2B all-stock (AMD newsroom, SEC 8-K), Cognex–RealSense US$500M cash (Cognex release), Energy Fuels–VAC about US$1.9B (company release, Reuters). Cost-to-try prices come from official product pages, linked in the strip. Robotics tape: Yahoo close, Fri 2 Oct. Not investment advice.",
   "robotics": {
     "masthead": "Robotics",
-    "tagline": "Humanoids \u00b7 hands \u00b7 factory AI \u00b7 Asia/Singapore",
+    "tagline": "Markets · supply chain · builders · every card tagged with what it proves",
+    "filterNote": "Filter: only real builds make the cut (photos, BOM, repo, CAD or hard numbers); pure takes are dropped. Each card is badged with what it proves. Bookmarks > likes counts as a save-to-build signal.",
     "markets": [
       {
         "key": "ISRG",
         "label": "Intuitive Surgical",
         "symbol": "ISRG",
-        "price": 401.24,
-        "changePct": 0.431,
+        "price": 391.95,
+        "changePct": -2.315,
         "spark": [
-          405.18,
           414.79,
           412.18,
           406.63,
-          401.24
+          401.24,
+          391.95
         ],
         "currency": "USD",
-        "asOf": "2026-10-02T13:20:00Z",
+        "asOf": "2026-10-02T20:00:01.000Z",
         "source": "Yahoo Finance"
       },
       {
         "key": "BOTZ",
         "label": "Global X Robotics",
         "symbol": "BOTZ",
-        "price": 35.43,
-        "changePct": 0.596,
+        "price": 36.03,
+        "changePct": 1.693,
         "spark": [
-          35.4,
           35.13,
           35.24,
           35.23,
-          35.43
+          35.43,
+          36.03
         ],
         "currency": "USD",
-        "asOf": "2026-10-02T13:20:00Z",
+        "asOf": "2026-10-02T20:00:01.000Z",
         "source": "Yahoo Finance"
       },
       {
         "key": "NVDA",
         "label": "NVIDIA",
         "symbol": "NVDA",
-        "price": 230.86,
-        "changePct": 2.796,
+        "price": 233.95,
+        "changePct": 1.338,
         "spark": [
-          225.07,
           228.86,
           227.21,
           228.38,
-          230.86
+          230.86,
+          233.95
         ],
         "currency": "USD",
-        "asOf": "2026-10-02T13:20:00Z",
+        "asOf": "2026-10-02T20:00:01.000Z",
         "source": "Yahoo Finance"
       }
     ],
-    "headlines": [
+    "costToTry": [
       {
-        "id": "r1",
-        "title": "Atlas drops the pinkie \u2014 four fingers, 13 DOF, built to manufacture at scale",
-        "dek": "Boston Dynamics\u2019 new hand trades anthropomorphism for rugged direct-drive actuators and sim-to-real RL. IEEE Spectrum: the team taped their own pinkies for a day before deciding four fingers were enough.",
-        "theme": "Hands / manufacturing",
-        "voices": [
-          {
-            "handle": "BostonDynamics",
-            "name": "Boston Dynamics",
-            "postId": "2105659276425298012",
-            "url": "https://x.com/BostonDynamics/status/2105659276425298012",
-            "snippet": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for high fidelity simulation to enable sim-to-real RL, and designed from the ground up for dexterous physical work."
-          },
-          {
-            "handle": "IEEESpectrum",
-            "name": "IEEE Spectrum",
-            "postId": "2105669287549559026",
-            "url": "https://x.com/IEEESpectrum/status/2105669287549559026",
-            "snippet": "The Atlas team spent a day with their fingers taped to their index fingers before deciding four fingers was enough."
-          },
-          {
-            "handle": "BostonDynamics",
-            "name": "Boston Dynamics",
-            "postId": "2105206242700313072",
-            "url": "https://x.com/BostonDynamics/status/2105206242700313072",
-            "snippet": "Why will Boston Dynamics win the humanoid robotics race? We've already commercialized autonomous mobile robots\u2026 Now we're doing it again with Atlas: learning in real environments, designing for manufacturing at scale."
-          }
-        ]
+        "name": "Unitree G1 humanoid (base)",
+        "range": "13,500",
+        "currency": "USD",
+        "note": "Official list, excl. tax and duties. Shipping US$300–1,200. Base unit has no SDK; EDU is quote-only.",
+        "sourceUrl": "https://shop.unitree.com/products/unitree-g1",
+        "sourceLabel": "Unitree store: G1 US$13,500"
       },
       {
-        "id": "r2",
-        "title": "Hasta la vista, F.02 \u2014 Figure melts retired fleet in a 75-ton arc furnace",
-        "dek": "Adcock: they really trained robots to jump autonomously, shipped them to Finland, and leap into molten steel \u2014 clearing the pad for F.03 / Helix while recycling metal into commemorative artifacts.",
-        "theme": "Fleet / ops theater",
-        "voices": [
-          {
-            "handle": "adcock_brett",
-            "name": "Brett Adcock",
-            "postId": "2105356889974562983",
-            "url": "https://x.com/adcock_brett/status/2105356889974562983",
-            "snippet": "To be clear: we actually trained our robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel."
-          },
-          {
-            "handle": "Figure_robot",
-            "name": "Figure",
-            "postId": "2105317708539830678",
-            "url": "https://x.com/Figure_robot/status/2105317708539830678",
-            "snippet": "It\u2019s worth being clear: we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel."
-          },
-          {
-            "handle": "adcock_brett",
-            "name": "Brett Adcock",
-            "postId": "2105787640947810684",
-            "url": "https://x.com/adcock_brett/status/2105787640947810684",
-            "snippet": "We're selling a limited edition F.02 Decommission Artifacts\u2026 from the metal recovered when F.02 robots were melted down in a 75-ton electric arc furnace."
-          }
-        ]
+        "name": "Asimov 1 DIY humanoid kit",
+        "range": "20,000",
+        "currency": "USD",
+        "note": "Official kit price (Batch 4 forming). Self-sourcing every part is estimated near US$30k.",
+        "sourceUrl": "https://menlo.ai/order",
+        "sourceLabel": "Menlo Research order page: DIY kit US$20,000"
       },
       {
-        "id": "r3",
-        "title": "Two philosophies of the robot hand land the same day",
-        "dek": "Industrial four-finger Atlas vs Clone\u2019s anatomical hydraulic Hand of Torso 3 (last legacy design before Torso 4). Hands are the unlock for tool use \u2014 and for simulatability.",
-        "theme": "Dexterity race",
-        "voices": [
-          {
-            "handle": "clonerobotics",
-            "name": "Clone",
-            "postId": "2105725960268247355",
-            "url": "https://x.com/clonerobotics/status/2105725960268247355",
-            "snippet": "Teleoperation of the Hand of Torso 3."
-          },
-          {
-            "handle": "clonerobotics",
-            "name": "Clone",
-            "postId": "2105726598221861008",
-            "url": "https://x.com/clonerobotics/status/2105726598221861008",
-            "snippet": "The Hand of Torso 3\u2026 marks the last of Clone\u2019s legacy Hand designs. Over last 6 months, Clone has re-designed the entire system from the ground up, optimizing for simulatibility and controllability."
-          }
-        ]
+        "name": "Unitree Dex5-S hand (22 DoF)",
+        "range": "6,350",
+        "currency": "USD",
+        "note": "“Price from”, per hand (¥39,900 in China).",
+        "sourceUrl": "https://www.unitree.com/Dex5-S/",
+        "sourceLabel": "Unitree Dex5-S page: from US$6,350"
       },
       {
-        "id": "r4",
-        "title": "Reliability is the open problem \u2014 touch, latency, and hours of real work",
-        "dek": "Finn on the gap between building one box and productively building boxes for hours. Jim Fan: touch is the most under-explored modality \u2014 today\u2019s robots feel like oven mitts.",
-        "theme": "Physical AI / research",
-        "voices": [
-          {
-            "handle": "chelseabfinn",
-            "name": "Chelsea Finn",
-            "postId": "2102806677074641001",
-            "url": "https://x.com/chelseabfinn/status/2102806677074641001",
-            "snippet": "Reliability is the one of the biggest open challenges in AI right now. Current models work out okay if a person will be reviewing the outputs\u2026"
-          },
-          {
-            "handle": "chelseabfinn",
-            "name": "Chelsea Finn",
-            "postId": "2099669259735728252",
-            "url": "https://x.com/chelseabfinn/status/2099669259735728252",
-            "snippet": "A video from a Pi robot deployed at Dandelion Chocolate, fully autonomous w/ no interventions\u2026 the gap between proof-of-concept (i.e. building one box) and real-world utility (productively building boxes for hours)."
-          },
-          {
-            "handle": "DrJimFan",
-            "name": "Jim Fan",
-            "postId": "2090832821036470626",
-            "url": "https://x.com/DrJimFan/status/2090832821036470626",
-            "snippet": "The sense of touch is the most criminally under-explored modality in robotics. Imagine doing sleight of hand wearing thick oven mitts."
-          }
-        ]
+        "name": "Seeed reBot B601-RS arm",
+        "range": "1,799.99",
+        "currency": "USD",
+        "note": "Assembled with gripper, no power supply. Open hardware.",
+        "sourceUrl": "https://www.seeedstudio.com/reBot-Arm-B601-RS-Assembled-Kit-with-Gripper-p-6865.html",
+        "sourceLabel": "Seeed store: B601-RS US$1,799.99"
+      },
+      {
+        "name": "M5Stack AtomS3 Lite (ESP32-S3)",
+        "range": "7.50",
+        "currency": "USD",
+        "note": "The kind of ESP32 board vibe-manufacturing builds start from.",
+        "sourceUrl": "https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit",
+        "sourceLabel": "M5Stack store: AtomS3 Lite US$7.50"
       }
     ],
-    "wire": [
+    "costNote": "Prices checked 5 Oct 2026 (SGT) on official manufacturer or vendor pages. All exclude tax, duties and shipping unless noted. G1: US$13.5k is Unitree's official list price. The ~US$16k figure seen elsewhere is a third-party street price and is not used here. Asimov: Menlo's order page shows US$20,000. Its older GitHub README still shows a US$15k target, which the order page supersedes.",
+    "bands": [
       {
-        "id": "rw1",
-        "title": "Boston Dynamics and Clone unveil new humanoid hands hours apart",
-        "url": "https://x.com/i/trending/2105689448780644512",
-        "source": "X News",
-        "summary": "Atlas: rugged 13-DOF four-finger hand for mass production. Clone: anatomical hydraulic hand on Torso 3 \u2014 contrasting industrial vs biomimetic bets."
+        "id": "markets",
+        "title": "Markets",
+        "subtitle": "Tape, deals, fleets and lab news, with numbers attached",
+        "cards": [
+          {
+            "id": "rm1",
+            "band": "markets",
+            "theme": "M&A · world models + perception",
+            "title": "Two cheques for the robot stack: AMD pays US$8.2B in stock for World Labs, Cognex US$500M cash for RealSense",
+            "dek": "Both deals were announced in the week of 28 Sep. AMD gets Fei-Fei Li's world-model lab, which also builds tools for robot learning and simulation. Li becomes EVP and chief scientist. Cognex moves from fixed inspection into 3D depth cameras for AMRs, quadrupeds and humanoids. Ziegler's roundup puts RealSense at more than 1M units shipped.",
+            "proof": [
+              "price",
+              "capacity"
+            ],
+            "voices": [
+              {
+                "handle": "lukas_m_ziegler",
+                "name": "Lukas Ziegler",
+                "postId": "2104851950537785381",
+                "url": "https://x.com/lukas_m_ziegler/status/2104851950537785381",
+                "snippet": "AMD is acquiring @theworldlabs, less than a month after Fei-Fei Li's team launched the Atlas world model. Fei-Fei Li joins AMD as EVP and Chief Scientist, reporting directly to CEO Lisa Su"
+              },
+              {
+                "handle": "lukas_m_ziegler",
+                "name": "Lukas Ziegler",
+                "postId": "2104852240930378144",
+                "url": "https://x.com/lukas_m_ziegler/status/2104852240930378144",
+                "snippet": "Cognex is acquiring @RealSenseai for $500M in cash… RealSense has shipped 1M+ units across fixed-arm robots, AMRs, quadrupeds, and humanoids with 20K active developers"
+              }
+            ],
+            "sources": [
+              {
+                "label": "AMD newsroom",
+                "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/"
+              },
+              {
+                "label": "Cognex PR",
+                "url": "https://www.prnewswire.com/news-releases/cognex-to-acquire-realsense-expanding-machine-vision-leadership-into-high-growth-robotic-perception-market-302885738.html"
+              }
+            ]
+          },
+          {
+            "id": "rm2",
+            "band": "markets",
+            "theme": "Fleet data · hands",
+            "title": "Figure: 1M sign-ups for its Index data project, plus a first look at the F.04 hands",
+            "dek": "Adcock says Index, Figure's crowd data-collection project, passed 1,000,000 sign-ups, and that this data will train the next Helix models. A day later he showed the F.04 hands. IEEE Spectrum reports Figure is promising a fully electric general-purpose humanoid with 5 hours of battery life.",
+            "proof": [
+              "capacity",
+              "photo"
+            ],
+            "voices": [
+              {
+                "handle": "adcock_brett",
+                "name": "Brett Adcock",
+                "postId": "2106039335267278908",
+                "url": "https://x.com/adcock_brett/status/2106039335267278908",
+                "snippet": "Index, our data collection project at Figure, just crossed 1,000,000 total signed up users just now… This will power the next generation of Helix models"
+              },
+              {
+                "handle": "adcock_brett",
+                "name": "Brett Adcock",
+                "postId": "2106461768218517995",
+                "url": "https://x.com/adcock_brett/status/2106461768218517995",
+                "snippet": "I’m bullish on embracing the complexity and building really capable human-like hands. F.04 hands are 🥰"
+              },
+              {
+                "handle": "IEEESpectrum",
+                "name": "IEEE Spectrum",
+                "postId": "2106768890629959799",
+                "url": "https://x.com/IEEESpectrum/status/2106768890629959799",
+                "snippet": "Figure promises a slim, practical, fully electric, general-purpose humanoid robot with 5 hours of battery life."
+              }
+            ]
+          },
+          {
+            "id": "rm3",
+            "band": "markets",
+            "theme": "Hands · design for manufacture",
+            "title": "Atlas gets 13-DOF direct-drive hands built for mass manufacturing",
+            "dek": "Boston Dynamics' new four-finger hand uses directly driven actuators and was designed for high-fidelity simulation and sim-to-real RL. IEEE Spectrum reports the team taped fingers together for a day before settling on four. Compare Figure's bet on a more human-like F.04 hand.",
+            "proof": [
+              "photo"
+            ],
+            "voices": [
+              {
+                "handle": "BostonDynamics",
+                "name": "Boston Dynamics",
+                "postId": "2105659276425298012",
+                "url": "https://x.com/BostonDynamics/status/2105659276425298012",
+                "snippet": "With 13 degrees of freedom, they are directly actuated, built for high fidelity simulation to enable sim-to-real RL, and designed from the ground up for dexterous physical work."
+              },
+              {
+                "handle": "IEEESpectrum",
+                "name": "IEEE Spectrum",
+                "postId": "2105669287549559026",
+                "url": "https://x.com/IEEESpectrum/status/2105669287549559026",
+                "snippet": "The Atlas team spent a day with their fingers taped to their index fingers before deciding four fingers was enough."
+              }
+            ],
+            "signal": "BD post: 393 bookmarks · 2,020 likes"
+          },
+          {
+            "id": "rm4",
+            "band": "markets",
+            "theme": "Deployment hours",
+            "title": "Agility: 65,000+ hours of Digit in real facilities, now tied into site safety systems",
+            "dek": "Agility and Fort Robotics announced an Offboard Safety Bridge that connects Digit to the safety systems a facility already runs, so a stop signal can come from the robot or from the site. Agility puts its real-world operating time at more than 65,000 hours.",
+            "proof": [
+              "capacity"
+            ],
+            "voices": [
+              {
+                "handle": "agilityrobotics",
+                "name": "Agility",
+                "postId": "2105647670727410103",
+                "url": "https://x.com/agilityrobotics/status/2105647670727410103",
+                "snippet": "A new Offboard Safety Bridge connects Digit to the safety systems already running in a facility… Built on 65,000+ hours of real-world operation."
+              }
+            ],
+            "sources": [
+              {
+                "label": "Agility announcement",
+                "url": "http://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "rw2",
-        "title": "Atlas trains on Hyundai Georgia factory floor; 25k-unit roadmap",
-        "url": "https://x.com/i/trending/2105275991417663899",
-        "source": "X News",
-        "summary": "RMAC at HMGMA: parts sequencing via teleop \u2192 AI flywheel. Hyundai eyes 25,000 Atlas across plants from 2028; US capacity toward 30k/year."
+        "id": "supply",
+        "title": "Supply chain",
+        "subtitle": "Actuators, magnets, reducers and parts: pricing and capacity",
+        "cards": [
+          {
+            "id": "rs1",
+            "band": "supply",
+            "theme": "Actuators · who makes them",
+            "title": "China's actuator supply base, mapped: 18 companies from five industrial backgrounds",
+            "dek": "Michelle Sun sorts suppliers by where they started: reducer specialists, precision-transmission firms, joint-module integrators, auto suppliers, and linear-motion makers that came in through planetary roller screws. Where a company started shapes its edge: gearing, integration, auto-scale production or linear motion. Her companion map covers motors, magnets, reducers, roller screws, encoders, bearings and drives.",
+            "proof": [
+              "photo",
+              "capacity"
+            ],
+            "voices": [
+              {
+                "handle": "michellelsun",
+                "name": "Michelle Sun",
+                "postId": "2103816353383841825",
+                "url": "https://x.com/michellelsun/status/2103816353383841825",
+                "snippet": "China's actuator supply base is being built by companies arriving from 5 overlapping industrial backgrounds… This map tracks 18 companies and preserves the stage each has disclosed."
+              },
+              {
+                "handle": "michellelsun",
+                "name": "Michelle Sun",
+                "postId": "2102415049830838686",
+                "url": "https://x.com/michellelsun/status/2102415049830838686",
+                "snippet": "A humanoid actuator is a global supply chain in miniature. This is a map of suppliers across motors, magnets, reducers, roller screws, encoders, bearings and drives."
+              }
+            ],
+            "signal": "574 bookmarks · 525 likes"
+          },
+          {
+            "id": "rs2",
+            "band": "supply",
+            "theme": "Teardown · cost drivers",
+            "title": "G1 actuator teardown: wiring limits cycle life, and low volume keeps cost high",
+            "dek": "Sun's notes on Munro's Unitree G1 teardown: power and signal run down the hollow centre of each joint and twist with every rotation. Munro estimates a few hundred thousand cycles. A car's clock spring lasts millions, but it adds a part. Units are still built in the thousands and customised per customer, which is what keeps unit cost high.",
+            "proof": [
+              "photo",
+              "capacity"
+            ],
+            "voices": [
+              {
+                "handle": "michellelsun",
+                "name": "Michelle Sun",
+                "postId": "2099477513479270412",
+                "url": "https://x.com/michellelsun/status/2099477513479270412",
+                "snippet": "Munro estimates its life at a couple hundred thousand cycles… Scale of production is small. These are still made in the thousands, custom per customer, which is what drives the cost up."
+              },
+              {
+                "handle": "michellelsun",
+                "name": "Michelle Sun",
+                "postId": "2098757267470594509",
+                "url": "https://x.com/michellelsun/status/2098757267470594509",
+                "snippet": "If you work in software and want a way into robotics, start with a joint. My actuator primer explains how motors, gears and electronics turn an AI command into movement, and what that costs."
+              }
+            ]
+          },
+          {
+            "id": "rs3",
+            "band": "supply",
+            "theme": "Hands as a component",
+            "title": "Unitree prices a 22-DoF human-size hand from US$6,350",
+            "dek": "The Dex5-S is a 22-DoF hand with all joints backdrivable and torque protection at each one. Unitree's global page lists it from US$6,350 (¥39,900 in China); Ziegler's roundup says US$6,500. Hands are turning into a component sold to other robot makers, and AGIBOT already sells several hand designs through its AGILINK spin-off.",
+            "proof": [
+              "price"
+            ],
+            "voices": [
+              {
+                "handle": "lukas_m_ziegler",
+                "name": "Lukas Ziegler",
+                "postId": "2104853145788584217",
+                "url": "https://x.com/lukas_m_ziegler/status/2104853145788584217",
+                "snippet": "China's @UnitreeRobotics unveiled the Dex5-S, a human-sized dexterous robot hand… 22 degrees of freedom, all backdrivable… Dexterous hands are becoming a standalone market."
+              }
+            ],
+            "sources": [
+              {
+                "label": "Unitree Dex5-S (from $6,350)",
+                "url": "https://www.unitree.com/Dex5-S/"
+              }
+            ]
+          },
+          {
+            "id": "rs4",
+            "band": "supply",
+            "theme": "Magnets · tactile parts",
+            "title": "A US$5 magnet tactile sensor, 3D printed, with all design files open",
+            "dek": "NYU's eFlesh needs four things: a hobby 3D printer, off-the-shelf magnets (under US$5), a CAD model and a magnetometer board. Contact moves the embedded magnets and the board underneath measures it. Reported results: 95% slip detection on unseen objects, and policies that add touch to vision beat vision alone by 40%. Design files, code, models and the STL converter are all public.",
+            "proof": [
+              "price",
+              "CAD",
+              "repo"
+            ],
+            "voices": [
+              {
+                "handle": "lukas_m_ziegler",
+                "name": "Lukas Ziegler",
+                "postId": "2106668014670078000",
+                "url": "https://x.com/lukas_m_ziegler/status/2106668014670078000",
+                "snippet": "Building an eFlesh sensor requires four components: a hobbyist 3D printer, off-the-shelf magnets (less than $5), a CAD model, and a magnetometer circuit board… All design files, code, trained models, and conversion tools are openly available."
+              }
+            ],
+            "sources": [
+              {
+                "label": "e-flesh.com",
+                "url": "http://e-flesh.com"
+              }
+            ],
+            "signal": "1,023 bookmarks · 1,317 likes"
+          },
+          {
+            "id": "rs5",
+            "band": "supply",
+            "theme": "Rare-earth magnets · capacity",
+            "title": "Western magnet capacity consolidates: Energy Fuels' US$1.9B deal for VAC",
+            "dek": "Energy Fuels agreed in June to buy Vacuumschmelze (VAC) for about US$1.9B in equity value: US$718M cash plus 65.9M shares. VAC is the largest rare-earth magnet maker outside China, with more than 1,000 customers and plants in Germany, the US (Sumter, SC), Malaysia and elsewhere. This gives a Western mine-to-magnet route for the NdFeB magnets in robot joint motors.",
+            "proof": [
+              "price",
+              "capacity"
+            ],
+            "voices": [],
+            "sources": [
+              {
+                "label": "Energy Fuels PR (Jun 23)",
+                "url": "https://www.prnewswire.com/news-releases/energy-fuels-announces-definitive-agreement-to-acquire-vac-for-1-9-billion-equity-value-302807538.html"
+              },
+              {
+                "label": "Reuters",
+                "url": "https://www.reuters.com/business/energy/energy-fuels-buy-magnet-manufacturer-vacuumschmelze-gmbh-19-billion-2026-06-23/"
+              }
+            ]
+          }
+        ]
       },
       {
-        "id": "rw3",
-        "title": "Figure decommissions F.02 fleet in Finnish arc furnace",
-        "url": "https://x.com/i/trending/2105327671198490956",
-        "source": "X News",
-        "summary": "Autonomous jumps into molten steel; Arnold cameo. Clears space for F.03 / Helix; metal recycled into limited artifacts."
-      },
-      {
-        "id": "rw4",
-        "title": "Anthropic: robots + LLMs expose ~80% of US working hours",
-        "url": "https://x.com/i/trending/2105390941410365844",
-        "source": "X News",
-        "summary": "Physical robots alone hit ~34% of hours in blue-collar tasks; with LLMs exposure jumps \u2014 but cost still keeps most tasks uneconomic today."
-      },
-      {
-        "id": "rw5",
-        "title": "UBTECH smart factory: one humanoid every ~10 minutes",
-        "url": "https://x.com/i/trending/2104903879192105333",
-        "source": "X News",
-        "summary": "Liuzhou plant targets 10k+ Walker/Cruzr units a year; robots helping build robots. Cuban still bets specialized form factors may win homes."
+        "id": "builders",
+        "title": "Builders",
+        "subtitle": "Vibe manufacturing, ESP32 + 3D print + agents, open arms and kits",
+        "cards": [
+          {
+            "id": "rb1",
+            "band": "builders",
+            "theme": "Vibe manufacturing · ESP32 + 3D print",
+            "title": "An ESP32 answering machine for the family, enclosure designed by an AI agent and printed at home",
+            "dek": "David Plakon had Astra source parts and design an enclosure around their specs, plus a site to explore the model. The design went from Astra to three.js to a printable .3mf file, with components bought from Adafruit and Amazon. The first prototype is being assembled, and a revised version followed a couple of prints. Bookmarks outnumber likes, the save-it-to-build-later signal.",
+            "proof": [
+              "photo",
+              "CAD"
+            ],
+            "voices": [
+              {
+                "handle": "DavidPlakon",
+                "name": "David Plakon",
+                "postId": "2106863741841080528",
+                "url": "https://x.com/DavidPlakon/status/2106863741841080528",
+                "snippet": "Fully onboard with vibe manufacturing. I've been designing this little answering machine for my kids + fam. Had Astra source parts and design the enclosure around their specs and build this model site. 3d print + ESP32 + Astra is so fun."
+              },
+              {
+                "handle": "DavidPlakon",
+                "name": "David Plakon",
+                "postId": "2106952351794053392",
+                "url": "https://x.com/DavidPlakon/status/2106952351794053392",
+                "snippet": "I sourced the components from adafruit / amazon. Astra -> three.js for design. Then I ask Astra to make it into a .3mf file for printing."
+              },
+              {
+                "handle": "DavidPlakon",
+                "name": "David Plakon",
+                "postId": "2106945616223883739",
+                "url": "https://x.com/DavidPlakon/status/2106945616223883739",
+                "snippet": "Working on it! I’ve already learned a lot and have a new iteration after a couple prints"
+              }
+            ],
+            "signal": "395 bookmarks · 350 likes"
+          },
+          {
+            "id": "rb2",
+            "band": "builders",
+            "theme": "Agents write the CAD and the board",
+            "title": "No more hand CAD: robot parts written as Python, boards designed by an agent",
+            "dek": "David Bar (@observie) writes every part as an LLM-written build123d Python program. A YAML file holds the robot's dimensions, masses, actuators and joint limits, and the code exports STEP files that Fusion is only used to inspect. His Q2 quadruped uses one spec file for both the sim and the CAD. i2cjak shows a board made with his Backplane harness, and Tykra's parametric tool generates printable snap-fit kits with a PDF assembly guide.",
+            "proof": [
+              "CAD",
+              "photo"
+            ],
+            "voices": [
+              {
+                "handle": "observie",
+                "name": "David Bar",
+                "postId": "2106301475261423651",
+                "url": "https://x.com/observie/status/2106301475261423651",
+                "snippet": "I don't do CAD anymore. Every part is a Python program that builds the model in memory using build123d… It then exports the model as a STEP file, which Fusion 360 imports so they can be inspected visually."
+              },
+              {
+                "handle": "observie",
+                "name": "David Bar",
+                "postId": "2104883925919105345",
+                "url": "https://x.com/observie/status/2104883925919105345",
+                "snippet": "This is Q2, a redesign of my Q1 quadruped… Four identical legs: no left/right parts. Direct-drive knees… One spec file drives both the sim model and the CAD."
+              },
+              {
+                "handle": "i2cjak",
+                "name": "i²cjak",
+                "postId": "2106342343511257549",
+                "url": "https://x.com/i2cjak/status/2106342343511257549",
+                "snippet": "thanks Opus 5.5 using the harness known as Backplane"
+              },
+              {
+                "handle": "ty_kra_lab",
+                "name": "Tykra",
+                "postId": "2103773903088734252",
+                "url": "https://x.com/ty_kra_lab/status/2103773903088734252",
+                "snippet": "The system also generates a step-by-step PDF assembly guide… The current test already generates a seven-part kit with no glue, screws or magnets."
+              }
+            ],
+            "signal": "observie: 1,957 bookmarks · 1,764 likes"
+          },
+          {
+            "id": "rb3",
+            "band": "builders",
+            "theme": "Open humanoid kit",
+            "title": "Asimov 1 ships to developers with CAD, BOM and walking-policy training code open",
+            "dek": "Menlo Research's 1.2 m, 35 kg humanoid has 25 DoF, up to 120 Nm peak joint torque and a 5 kg payload per arm. Menlo has open-sourced the CAD, electrical design, BOM, sim models and the Isaac Lab locomotion policy with its reward and actuator configs. The DIY kit is US$20k on Menlo's order page. Michelle Sun used Astra to build a browsable 1,168-part CAD site from it.",
+            "proof": [
+              "repo",
+              "CAD",
+              "BOM",
+              "price"
+            ],
+            "voices": [
+              {
+                "handle": "asimovinc",
+                "name": "Asimov",
+                "postId": "2104771261855678743",
+                "url": "https://x.com/asimovinc/status/2104771261855678743",
+                "snippet": "Asimov 1 is shipping to developers. 25 DoF, 1.2 m (3.94 ft), 35 kg (77 lb)… Open-source across the stack, from CAD and electrical design to BOM, sim models and locomotion policy."
+              },
+              {
+                "handle": "asimovinc",
+                "name": "Asimov",
+                "postId": "2103323417198182531",
+                "url": "https://x.com/asimovinc/status/2103323417198182531",
+                "snippet": "Alongside the trained policy checkpoint, we're sharing our Isaac Lab-based training code, including reward definitions, hardware-tuned actuator configurations, and domain randomization settings."
+              },
+              {
+                "handle": "michellelsun",
+                "name": "Michelle Sun",
+                "postId": "2097064000806896065",
+                "url": "https://x.com/michellelsun/status/2097064000806896065",
+                "snippet": "I used GPT-6 Astra to create a 3D website that pulls apart the humanoid anatomy into 1,168 CAD components!… based on @menloresearch 's Asimov 1"
+              }
+            ],
+            "sources": [
+              {
+                "label": "GitHub · menloresearch/asimov-1",
+                "url": "https://github.com/menloresearch/asimov-1"
+              },
+              {
+                "label": "Training code (cyclotron)",
+                "url": "https://github.com/menloresearch/cyclotron"
+              },
+              {
+                "label": "menlo.ai/order",
+                "url": "https://menlo.ai/order"
+              }
+            ]
+          },
+          {
+            "id": "rb4",
+            "band": "builders",
+            "theme": "Open arms",
+            "title": "Seeed's reBot B601: an open 6-DoF arm for about US$1.8k, now supported in LeRobot",
+            "dek": "Seeed lists the B601-RS at US$1,799.99, assembled with gripper and without power supply. The B601-DM is cheaper. Both now run in Hugging Face's LeRobot. In LeRobot's demo the arm folds towels autonomously with an ACT policy trained on 200 examples, and it has a 2.5 kg payload. One field tester calls it a big step up from the SO-101. Hardware files and BOM are in the reBot repo.",
+            "proof": [
+              "price",
+              "repo",
+              "BOM"
+            ],
+            "voices": [
+              {
+                "handle": "KuphDev",
+                "name": "KuphDev",
+                "postId": "2103850455713415252",
+                "url": "https://x.com/KuphDev/status/2103850455713415252",
+                "snippet": "For $2K, I’m extremely impressed with the build quality of the reBot B601-RS… It’s a huge step up from the SO-101."
+              },
+              {
+                "handle": "LeRobotHF",
+                "name": "LeRobot",
+                "postId": "2104519372333048112",
+                "url": "https://x.com/LeRobotHF/status/2104519372333048112",
+                "snippet": "Both DM and RS versions of the reBot B601 from @seeedstudio are now officially supported. The arm features a 2.5kg payload capacity and 6 degrees of freedom + gripper… The ACT model was trained on just 200 examples."
+              },
+              {
+                "handle": "seeedstudio",
+                "name": "Seeed Studio",
+                "postId": "2104831329640890646",
+                "url": "https://x.com/seeedstudio/status/2104831329640890646",
+                "snippet": "Build imitation learning workflows with Teleoperate → Record → Train → Deploy, using #LeRobot datasets and models… Check reBot GitHub repo for more hardware info"
+              }
+            ],
+            "sources": [
+              {
+                "label": "Seeed store · B601-RS",
+                "url": "https://www.seeedstudio.com/reBot-Arm-B601-RS-Assembled-Kit-with-Gripper-p-6865.html"
+              }
+            ]
+          },
+          {
+            "id": "rb5",
+            "band": "builders",
+            "theme": "ESP32 + AI at bench scale",
+            "title": "Bench builds this week: a tiny balancing bot, an ESP32 voice assistant, Wi-Fi-chip FPV",
+            "dek": "Picks from vendor accounts, each a real build with the parts named. Jun (@GEH00073) built a tiny two-wheel balancing robot from an M5 NanoC6 and an MPU6050 (192 bookmarks). Adafruit shared an ESP32 voice assistant with animated OLED eyes and ESP-SDR, which uses the ESP32's raw I/Q capture as a software-defined radio. Seeed shared C5VRX, a 5.8 GHz FPV receiver built from a XIAO ESP32-C5 and six resistors.",
+            "proof": [
+              "photo",
+              "BOM"
+            ],
+            "voices": [
+              {
+                "handle": "GEH00073",
+                "name": "Jun",
+                "postId": "2104908308331237842",
+                "url": "https://x.com/GEH00073/status/2104908308331237842",
+                "snippet": "NanoC6とMPU6050を使った超小型倒立振子ができました! (Built an ultra-small inverted-pendulum robot with NanoC6 + MPU6050.)"
+              },
+              {
+                "handle": "adafruit",
+                "name": "adafruit industries",
+                "postId": "2105396753034051887",
+                "url": "https://x.com/adafruit/status/2105396753034051887",
+                "snippet": "DIY AI voice assistant with ESP32 and animated OLED eyes"
+              },
+              {
+                "handle": "adafruit",
+                "name": "adafruit industries",
+                "postId": "2105400740185551051",
+                "url": "https://x.com/adafruit/status/2105400740185551051",
+                "snippet": "ESP-SDR uses undocumented raw I/Q capture of ESP32 to make software defined radios"
+              },
+              {
+                "handle": "seeedstudio",
+                "name": "Seeed Studio",
+                "postId": "2105976058034139154",
+                "url": "https://x.com/seeedstudio/status/2105976058034139154",
+                "snippet": "C5VRX turns our XIAO ESP32-C5 into a 5.8 GHz video receiver: the Wi-Fi radio captures the signal, and six resistors turn it back into analog video for the goggles."
+              }
+            ],
+            "signal": "GEH00073: 192 bookmarks · 713 likes · ESP-SDR: 286 · 456"
+          }
+        ]
       }
     ]
   },
   "actionables": [
     {
       "kind": "watch",
-      "title": "US 10-year \u2014 hold the 5.28% week close?",
-      "detail": "Friday close about 5.26\u20135.28%. Wolf Street\u2019s week close is 5.28%. Watch whether the long end stays at that close or slips back through the band.",
+      "title": "US 10-year — hold the 5.28% week close?",
+      "detail": "Friday close about 5.26–5.28%. Wolf Street’s week close is 5.28%. Watch whether the long end stays at that close or slips back through the band.",
       "related": "US10Y"
     },
     {
@@ -432,13 +814,13 @@
     {
       "kind": "move",
       "title": "Set Strive beside the March 2023 MSTR week",
-      "detail": "Walton\u2019s comparison is volume to volume: Strive\u2019s about $1.25B week versus an MSTR week in March 2023 that also traded about $1.25B. Map that analogy; this edition does not add a separate price target.",
+      "detail": "Walton’s comparison is volume to volume: Strive’s about $1.25B week versus an MSTR week in March 2023 that also traded about $1.25B. Map that analogy; this edition does not add a separate price target.",
       "related": "Strive"
     },
     {
       "kind": "decision",
-      "title": "Fiscal dominance as the frame \u2014 keep it?",
-      "detail": "Alden\u2019s 3 Oct chart is the regime call. Decide whether the 5.28% 10-year close and the 7.28% mortgage are symptoms of fiscal dominance or a one-week spike.",
+      "title": "Fiscal dominance as the frame — keep it?",
+      "detail": "Alden’s 3 Oct chart is the regime call. Decide whether the 5.28% 10-year close and the 7.28% mortgage are symptoms of fiscal dominance or a one-week spike.",
       "related": "fiscal dominance"
     }
   ]

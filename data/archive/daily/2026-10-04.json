@@ -1,0 +1,445 @@
+{
+  "edition": "daily",
+  "date": "2026-10-04",
+  "timezone": "Asia/Singapore",
+  "publishedAt": "2026-10-04T19:28:11+08:00",
+  "generatedAt": "2026-10-04T19:28:11+08:00",
+  "status": "sunday-edition+archived",
+  "masthead": "JT Finance Paper",
+  "tagline": "Daily macro + robotics from high-signal voices · Asia/Singapore",
+  "lead": "Sunday, 4 October 2026. Lyn Alden puts fiscal dominance in a chart. The US 10-year Friday close was about 5.26–5.28% (Wolf Street week close: 5.28%). Freddie’s 30-year mortgage is 7.28% as of 1 Oct, up from 7.03%. Jeff Walton: the Strive complex traded about $1.25B last week ($944M ASST, $310M SATA), beside an MSTR week in March 2023. Robotics beat unchanged.",
+  "markets": [
+    {
+      "key": "SPX",
+      "label": "S&P 500",
+      "symbol": "^GSPC",
+      "price": 7666.45,
+      "changePct": -0.489,
+      "spark": [
+        7743.4102,
+        7683.6899,
+        7670.8398,
+        7651.54,
+        7666.4502
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-01T20:35:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "DXY",
+      "label": "US Dollar (DXY)",
+      "symbol": "DX-Y.NYB",
+      "price": 102.053,
+      "changePct": 0.843,
+      "spark": [
+        101.2,
+        101.37,
+        101.45,
+        102.1,
+        102.053
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:39Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "US10Y",
+      "label": "US 10Y Yield",
+      "symbol": "^TNX",
+      "price": 5.28,
+      "changePct": null,
+      "spark": [
+        5.184,
+        5.24,
+        5.255,
+        5.293,
+        5.28
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-01T18:59:54Z",
+      "source": "Wolf Street week close"
+    },
+    {
+      "key": "BTC",
+      "label": "Bitcoin",
+      "symbol": "BTC-USD",
+      "price": 84884.3,
+      "changePct": 1.655,
+      "spark": [
+        83502.6094,
+        83622.4297,
+        83553.8516,
+        84884.2969
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:21:38Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "GOLD",
+      "label": "Gold",
+      "symbol": "GC=F",
+      "price": 4184.9,
+      "changePct": 0.396,
+      "spark": [
+        4168.3999,
+        4179.7002,
+        4186.7002,
+        4202.2998,
+        4184.8999
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "OIL",
+      "label": "WTI Crude",
+      "symbol": "CL=F",
+      "price": 92.74,
+      "changePct": 0.151,
+      "spark": [
+        92.6,
+        89.38,
+        90.42,
+        92.87,
+        92.74
+      ],
+      "currency": "USD",
+      "asOf": "2026-10-02T02:11:38Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "key": "SGD",
+      "label": "USD/SGD",
+      "symbol": "SGD=X",
+      "price": 1.2806,
+      "changePct": 0.164,
+      "spark": [
+        1.2785,
+        1.2773,
+        1.2777,
+        1.2779,
+        1.2806
+      ],
+      "currency": "SGD",
+      "asOf": "2026-10-02T02:21:40Z",
+      "source": "Yahoo Finance"
+    }
+  ],
+  "headlines": [
+    {
+      "id": "h1",
+      "title": "Fiscal dominance, in a chart",
+      "dek": "On 3 October, Lyn Alden posts the picture she says is fiscal dominance — the regime frame for this Sunday edition.",
+      "theme": "Fiscal dominance",
+      "voices": [
+        {
+          "handle": "LynAldenContact",
+          "name": "Lyn Alden",
+          "postId": "2106452961593557481",
+          "url": "https://x.com/LynAldenContact/status/2106452961593557481",
+          "snippet": "If you want fiscal dominance in a chart, here it is."
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "title": "Strive complex about $1.25B last week — ASST $944M, SATA $310M",
+      "dek": "Jeff Walton sets that weekly volume beside a MicroStrategy week in March 2023, when MSTR also traded about $1.25B in a single week.",
+      "theme": "Strive / Bitcoin capital markets",
+      "voices": [
+        {
+          "handle": "PunterJeff",
+          "name": "Jeff Walton",
+          "postId": "2106396465031737531",
+          "url": "https://x.com/PunterJeff/status/2106396465031737531",
+          "snippet": "Strive security complex traded $1.25 billion in volume last week. $944M on ASST. $310M on SATA. Back in March of 2023, MSTR traded $1.25 billion in volume in a single week."
+        }
+      ]
+    },
+    {
+      "id": "h3",
+      "title": "US 10-year Friday close about 5.26–5.28%",
+      "dek": "Wolf Street’s week close is 5.28%. This edition uses that print — not a fresh intraday quote.",
+      "theme": "Rates",
+      "voices": []
+    },
+    {
+      "id": "h4",
+      "title": "Freddie 30-year mortgage 7.28% as of 1 October",
+      "dek": "Up from 7.03%. The housing rate in this edition is that 1 Oct 2026 Freddie print.",
+      "theme": "Mortgages",
+      "voices": []
+    }
+  ],
+  "wire": [
+    {
+      "id": "n1",
+      "title": "Lyn Alden: fiscal dominance in a chart (3 Oct)",
+      "url": "https://x.com/LynAldenContact/status/2106452961593557481",
+      "source": "X",
+      "summary": "If you want fiscal dominance in a chart, here it is."
+    },
+    {
+      "id": "n2",
+      "title": "Jeff Walton: Strive complex about $1.25B volume last week",
+      "url": "https://x.com/PunterJeff/status/2106396465031737531",
+      "source": "X",
+      "summary": "$944M on ASST and $310M on SATA. Walton compares the week to an MSTR week in March 2023 that also traded about $1.25B."
+    },
+    {
+      "id": "n3",
+      "title": "Wolf Street: 10-year week close 5.28%",
+      "url": "https://wolfstreet.com/2026/10/03/a-wild-week-for-10-year-30-year-treasury-yields-is-there-blood-in-the-streets-yet-is-it-good-enough-for-me-to-nibble/",
+      "source": "Wolf Street",
+      "summary": "Friday close about 5.26–5.28%. Wolf Street’s week close is 5.28%."
+    },
+    {
+      "id": "n4",
+      "title": "Freddie Mac: 30-year mortgage 7.28% as of 1 Oct 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373202/0/en/mortgage-rates-average-7-28.html",
+      "source": "Freddie Mac",
+      "summary": "30-year fixed averaged 7.28% as of 1 October 2026, up from 7.03%."
+    }
+  ],
+  "sourcesNote": "Sunday edition 2026-10-04 (Asia/Singapore). Verified prints only: Lyn Alden fiscal-dominance chart (3 Oct); Jeff Walton on Strive complex volume (about $1.25B; $944M ASST, $310M SATA) versus an MSTR week in March 2023; US 10-year Friday close about 5.26–5.28% (Wolf Street week close 5.28%); Freddie Mac 30-year mortgage 7.28% as of 1 Oct 2026, up from 7.03%. The US 10Y tape row is that Wolf Street week close, not a fresh Yahoo quote. Other tape rows are the prior Yahoo snapshot and are not new verified prints. Robotics band is the existing seeded set. Not investment advice.",
+  "robotics": {
+    "masthead": "Robotics",
+    "tagline": "Humanoids · hands · factory AI · Asia/Singapore",
+    "markets": [
+      {
+        "key": "ISRG",
+        "label": "Intuitive Surgical",
+        "symbol": "ISRG",
+        "price": 401.24,
+        "changePct": 0.431,
+        "spark": [
+          405.18,
+          414.79,
+          412.18,
+          406.63,
+          401.24
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      },
+      {
+        "key": "BOTZ",
+        "label": "Global X Robotics",
+        "symbol": "BOTZ",
+        "price": 35.43,
+        "changePct": 0.596,
+        "spark": [
+          35.4,
+          35.13,
+          35.24,
+          35.23,
+          35.43
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      },
+      {
+        "key": "NVDA",
+        "label": "NVIDIA",
+        "symbol": "NVDA",
+        "price": 230.86,
+        "changePct": 2.796,
+        "spark": [
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86
+        ],
+        "currency": "USD",
+        "asOf": "2026-10-02T13:20:00Z",
+        "source": "Yahoo Finance"
+      }
+    ],
+    "headlines": [
+      {
+        "id": "r1",
+        "title": "Atlas drops the pinkie — four fingers, 13 DOF, built to manufacture at scale",
+        "dek": "Boston Dynamics’ new hand trades anthropomorphism for rugged direct-drive actuators and sim-to-real RL. IEEE Spectrum: the team taped their own pinkies for a day before deciding four fingers were enough.",
+        "theme": "Hands / manufacturing",
+        "voices": [
+          {
+            "handle": "BostonDynamics",
+            "name": "Boston Dynamics",
+            "postId": "2105659276425298012",
+            "url": "https://x.com/BostonDynamics/status/2105659276425298012",
+            "snippet": "These new hands are the perfect companion for Atlas. With 13 degrees of freedom, they are directly actuated, built for high fidelity simulation to enable sim-to-real RL, and designed from the ground up for dexterous physical work."
+          },
+          {
+            "handle": "IEEESpectrum",
+            "name": "IEEE Spectrum",
+            "postId": "2105669287549559026",
+            "url": "https://x.com/IEEESpectrum/status/2105669287549559026",
+            "snippet": "The Atlas team spent a day with their fingers taped to their index fingers before deciding four fingers was enough."
+          },
+          {
+            "handle": "BostonDynamics",
+            "name": "Boston Dynamics",
+            "postId": "2105206242700313072",
+            "url": "https://x.com/BostonDynamics/status/2105206242700313072",
+            "snippet": "Why will Boston Dynamics win the humanoid robotics race? We've already commercialized autonomous mobile robots… Now we're doing it again with Atlas: learning in real environments, designing for manufacturing at scale."
+          }
+        ]
+      },
+      {
+        "id": "r2",
+        "title": "Hasta la vista, F.02 — Figure melts retired fleet in a 75-ton arc furnace",
+        "dek": "Adcock: they really trained robots to jump autonomously, shipped them to Finland, and leap into molten steel — clearing the pad for F.03 / Helix while recycling metal into commemorative artifacts.",
+        "theme": "Fleet / ops theater",
+        "voices": [
+          {
+            "handle": "adcock_brett",
+            "name": "Brett Adcock",
+            "postId": "2105356889974562983",
+            "url": "https://x.com/adcock_brett/status/2105356889974562983",
+            "snippet": "To be clear: we actually trained our robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel."
+          },
+          {
+            "handle": "Figure_robot",
+            "name": "Figure",
+            "postId": "2105317708539830678",
+            "url": "https://x.com/Figure_robot/status/2105317708539830678",
+            "snippet": "It’s worth being clear: we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel."
+          },
+          {
+            "handle": "adcock_brett",
+            "name": "Brett Adcock",
+            "postId": "2105787640947810684",
+            "url": "https://x.com/adcock_brett/status/2105787640947810684",
+            "snippet": "We're selling a limited edition F.02 Decommission Artifacts… from the metal recovered when F.02 robots were melted down in a 75-ton electric arc furnace."
+          }
+        ]
+      },
+      {
+        "id": "r3",
+        "title": "Two philosophies of the robot hand land the same day",
+        "dek": "Industrial four-finger Atlas vs Clone’s anatomical hydraulic Hand of Torso 3 (last legacy design before Torso 4). Hands are the unlock for tool use — and for simulatability.",
+        "theme": "Dexterity race",
+        "voices": [
+          {
+            "handle": "clonerobotics",
+            "name": "Clone",
+            "postId": "2105725960268247355",
+            "url": "https://x.com/clonerobotics/status/2105725960268247355",
+            "snippet": "Teleoperation of the Hand of Torso 3."
+          },
+          {
+            "handle": "clonerobotics",
+            "name": "Clone",
+            "postId": "2105726598221861008",
+            "url": "https://x.com/clonerobotics/status/2105726598221861008",
+            "snippet": "The Hand of Torso 3… marks the last of Clone’s legacy Hand designs. Over last 6 months, Clone has re-designed the entire system from the ground up, optimizing for simulatibility and controllability."
+          }
+        ]
+      },
+      {
+        "id": "r4",
+        "title": "Reliability is the open problem — touch, latency, and hours of real work",
+        "dek": "Finn on the gap between building one box and productively building boxes for hours. Jim Fan: touch is the most under-explored modality — today’s robots feel like oven mitts.",
+        "theme": "Physical AI / research",
+        "voices": [
+          {
+            "handle": "chelseabfinn",
+            "name": "Chelsea Finn",
+            "postId": "2102806677074641001",
+            "url": "https://x.com/chelseabfinn/status/2102806677074641001",
+            "snippet": "Reliability is the one of the biggest open challenges in AI right now. Current models work out okay if a person will be reviewing the outputs…"
+          },
+          {
+            "handle": "chelseabfinn",
+            "name": "Chelsea Finn",
+            "postId": "2099669259735728252",
+            "url": "https://x.com/chelseabfinn/status/2099669259735728252",
+            "snippet": "A video from a Pi robot deployed at Dandelion Chocolate, fully autonomous w/ no interventions… the gap between proof-of-concept (i.e. building one box) and real-world utility (productively building boxes for hours)."
+          },
+          {
+            "handle": "DrJimFan",
+            "name": "Jim Fan",
+            "postId": "2090832821036470626",
+            "url": "https://x.com/DrJimFan/status/2090832821036470626",
+            "snippet": "The sense of touch is the most criminally under-explored modality in robotics. Imagine doing sleight of hand wearing thick oven mitts."
+          }
+        ]
+      }
+    ],
+    "wire": [
+      {
+        "id": "rw1",
+        "title": "Boston Dynamics and Clone unveil new humanoid hands hours apart",
+        "url": "https://x.com/i/trending/2105689448780644512",
+        "source": "X News",
+        "summary": "Atlas: rugged 13-DOF four-finger hand for mass production. Clone: anatomical hydraulic hand on Torso 3 — contrasting industrial vs biomimetic bets."
+      },
+      {
+        "id": "rw2",
+        "title": "Atlas trains on Hyundai Georgia factory floor; 25k-unit roadmap",
+        "url": "https://x.com/i/trending/2105275991417663899",
+        "source": "X News",
+        "summary": "RMAC at HMGMA: parts sequencing via teleop → AI flywheel. Hyundai eyes 25,000 Atlas across plants from 2028; US capacity toward 30k/year."
+      },
+      {
+        "id": "rw3",
+        "title": "Figure decommissions F.02 fleet in Finnish arc furnace",
+        "url": "https://x.com/i/trending/2105327671198490956",
+        "source": "X News",
+        "summary": "Autonomous jumps into molten steel; Arnold cameo. Clears space for F.03 / Helix; metal recycled into limited artifacts."
+      },
+      {
+        "id": "rw4",
+        "title": "Anthropic: robots + LLMs expose ~80% of US working hours",
+        "url": "https://x.com/i/trending/2105390941410365844",
+        "source": "X News",
+        "summary": "Physical robots alone hit ~34% of hours in blue-collar tasks; with LLMs exposure jumps — but cost still keeps most tasks uneconomic today."
+      },
+      {
+        "id": "rw5",
+        "title": "UBTECH smart factory: one humanoid every ~10 minutes",
+        "url": "https://x.com/i/trending/2104903879192105333",
+        "source": "X News",
+        "summary": "Liuzhou plant targets 10k+ Walker/Cruzr units a year; robots helping build robots. Cuban still bets specialized form factors may win homes."
+      }
+    ]
+  },
+  "actionables": [
+    {
+      "kind": "watch",
+      "title": "US 10-year — hold the 5.28% week close?",
+      "detail": "Friday close about 5.26–5.28%. Wolf Street’s week close is 5.28%. Watch whether the long end stays at that close or slips back through the band.",
+      "related": "US10Y"
+    },
+    {
+      "kind": "watch",
+      "title": "Freddie 30-year at 7.28%",
+      "detail": "As of 1 Oct 2026 the 30-year averaged 7.28%, up from 7.03%. Watch the next PMMS against that step-up. No other mortgage print is in this edition.",
+      "related": "mortgages"
+    },
+    {
+      "kind": "watch",
+      "title": "Strive complex volume: about $1.25B",
+      "detail": "Walton: about $1.25B last week, $944M on ASST and $310M on SATA. Watch whether that weekly complex volume is a one-off or the new run-rate.",
+      "related": "ASST / SATA"
+    },
+    {
+      "kind": "move",
+      "title": "Set Strive beside the March 2023 MSTR week",
+      "detail": "Walton’s comparison is volume to volume: Strive’s about $1.25B week versus an MSTR week in March 2023 that also traded about $1.25B. Map that analogy; this edition does not add a separate price target.",
+      "related": "Strive"
+    },
+    {
+      "kind": "decision",
+      "title": "Fiscal dominance as the frame — keep it?",
+      "detail": "Alden’s 3 Oct chart is the regime call. Decide whether the 5.28% 10-year close and the 7.28% mortgage are symptoms of fiscal dominance or a one-week spike.",
+      "related": "fiscal dominance"
+    }
+  ]
+}

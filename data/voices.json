@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-02T21:20:00+08:00",
+  "updatedAt": "2026-10-05T14:30:00+08:00",
   "timezone": "Asia/Singapore",
-  "notes": "Edit this list to change whose X posts feed the daily/weekly distill. Handles are case-sensitive. Tag with macro and/or robotics so editions can pull by beat.",
+  "notes": "Edit this list to change whose X posts feed the daily/weekly distill. Handles are case-sensitive. Tag with macro and/or robotics so editions can pull by beat. Robotics sub-tags: markets | supply | builders (bands). Do not add @EspressifSystem (personal account, not Espressif).",
   "seeds": [
     {
       "handle": "LynAldenContact",
@@ -52,7 +52,8 @@
       "seed": true,
       "id": "517473207",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -63,7 +64,8 @@
       "id": "3222018178",
       "note": "Not @BrettAdcock (dormant); active as @adcock_brett",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -73,7 +75,8 @@
       "seed": true,
       "id": "1007413134",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -83,7 +86,8 @@
       "seed": true,
       "id": "15825547",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     }
   ],
@@ -136,7 +140,8 @@
       "seed": false,
       "id": "1602443956888817665",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -146,7 +151,8 @@
       "seed": false,
       "id": "792359016592584704",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -156,7 +162,8 @@
       "seed": false,
       "id": "2577596593",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -166,7 +173,8 @@
       "seed": false,
       "id": "1767285662087348224",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -176,7 +184,8 @@
       "seed": false,
       "id": "1450806886899531787",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -186,7 +195,8 @@
       "seed": false,
       "id": "907134826137788416",
       "tags": [
-        "robotics"
+        "robotics",
+        "supply"
       ]
     },
     {
@@ -196,7 +206,8 @@
       "seed": false,
       "id": "115189158",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -206,7 +217,8 @@
       "seed": false,
       "id": "755183838532370432",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -216,7 +228,8 @@
       "seed": false,
       "id": "3216567403",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
     },
     {
@@ -226,8 +239,160 @@
       "seed": false,
       "id": "1664370972869398529",
       "tags": [
-        "robotics"
+        "robotics",
+        "markets"
       ]
+    },
+    {
+      "handle": "michellelsun",
+      "name": "Michelle Sun",
+      "role": "Physical-AI value chain; actuator/magnet/reducer supply maps (high signal)",
+      "seed": false,
+      "id": "28997852",
+      "tags": [
+        "robotics",
+        "supply"
+      ]
+    },
+    {
+      "handle": "lukas_m_ziegler",
+      "name": "Lukas Ziegler",
+      "role": "Weekly robotics roundups; filter for builds, skip hype",
+      "seed": false,
+      "id": "1436009312078508034",
+      "tags": [
+        "robotics",
+        "supply",
+        "markets"
+      ],
+      "note": "Roundup account. Only cite posts with numbers, repos or build footage."
+    },
+    {
+      "handle": "observie",
+      "name": "David Bar",
+      "role": "Builds quadrupeds; code-as-CAD (build123d) + RL-first design",
+      "seed": false,
+      "id": "1754064047178125312",
+      "tags": [
+        "robotics",
+        "builders"
+      ]
+    },
+    {
+      "handle": "i2cjak",
+      "name": "i²cjak",
+      "role": "Electrical engineer; AI-assisted PCB design (Backplane)",
+      "seed": false,
+      "id": "1796392828966215680",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Mostly takes and banter. Only cite board/build posts."
+    },
+    {
+      "handle": "ty_kra_lab",
+      "name": "Tykra",
+      "role": "Parametric hardware design tool; printable kits, built in public",
+      "seed": false,
+      "id": "1677512159998234624",
+      "tags": [
+        "robotics",
+        "builders"
+      ]
+    },
+    {
+      "handle": "adafruit",
+      "name": "adafruit industries",
+      "role": "Open-source hardware maker/vendor; ESP32 + maker project reposts",
+      "seed": false,
+      "id": "20731304",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Vendor account. Use project posts, not promos."
+    },
+    {
+      "handle": "M5Stack",
+      "name": "M5Stack",
+      "role": "ESP32 module vendor; community build reposts",
+      "seed": false,
+      "id": "4901708113",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Vendor account. Cite the original builder where possible."
+    },
+    {
+      "handle": "seeedstudio",
+      "name": "Seeed Studio",
+      "role": "XIAO/reBot vendor; project reposts only",
+      "seed": false,
+      "id": "28542415",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Vendor project reposts only."
+    },
+    {
+      "handle": "menloresearch",
+      "name": "Menlo Research",
+      "role": "Maker of Asimov 1 open humanoid (via @asimovinc)",
+      "seed": false,
+      "id": "1795929339269443586",
+      "tags": [
+        "robotics",
+        "builders"
+      ]
+    },
+    {
+      "handle": "asimovinc",
+      "name": "Asimov",
+      "role": "Asimov 1 developer humanoid: open CAD/BOM/policy",
+      "seed": false,
+      "id": "1946173947348713472",
+      "tags": [
+        "robotics",
+        "builders"
+      ]
+    },
+    {
+      "handle": "DavidPlakon",
+      "name": "David Plakon",
+      "role": "Product @warpdotdev; vibe-manufacturing ESP32 + 3D-print builds",
+      "seed": false,
+      "id": "519829146",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Seeded by JT: ESP32 + 3D-print answering machine designed with Astra."
+    },
+    {
+      "handle": "LeRobotHF",
+      "name": "LeRobot",
+      "role": "Hugging Face open robotics stack; supported arms + datasets",
+      "seed": false,
+      "id": "1811128301764648960",
+      "tags": [
+        "robotics",
+        "builders"
+      ]
+    },
+    {
+      "handle": "gregisenberg",
+      "name": "Greg Isenberg",
+      "role": "Startup ideas; occasional vibe-manufacturing signal",
+      "seed": false,
+      "id": "14642331",
+      "tags": [
+        "robotics",
+        "builders"
+      ],
+      "note": "Use sparingly."
     }
   ]
 }
